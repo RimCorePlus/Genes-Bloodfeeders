@@ -1,0 +1,22 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Expanded Framework</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!--limits impids to desert biomes-->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="BloodfeederClan"]</xpath>
+					<value>
+						<modExtensions>
+							<li Class="VFECore.FactionDefExtension">
+								<minDistanceToOtherSettlements>20</minDistanceToOtherSettlements>
+							</li>
+						</modExtensions>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
