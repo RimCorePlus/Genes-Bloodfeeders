@@ -11,7 +11,7 @@
 					<value>
 						<modExtensions>
 							<li Class="VFECore.FactionDefExtension">
-								<minDistanceToOtherSettlements>20</minDistanceToOtherSettlements>
+								<minDistanceToOtherSettlements>12</minDistanceToOtherSettlements>
 							</li>
 						</modExtensions>
 					</value>

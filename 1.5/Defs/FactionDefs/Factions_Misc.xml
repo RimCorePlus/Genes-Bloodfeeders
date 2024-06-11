@@ -11,7 +11,7 @@
 		<naturalEnemy>true</naturalEnemy>
 		<listOrderPriority>32</listOrderPriority>
 		<earliestRaidDays>60</earliestRaidDays>
-		<settlementGenerationWeight>0.5</settlementGenerationWeight>
+		<settlementGenerationWeight>0.6</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
