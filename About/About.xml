@@ -3,7 +3,7 @@
 	<packageId>boomer.bloodfeeders</packageId>
 	<name>bloodfeeders</name>
 	<author>boomer</author>
-	<description>WIP. Icons stolen from Helixien.</description>
+	<description>WIP.</description>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
@@ -19,12 +19,12 @@
 		<li>
 			<packageId>boomer.patches</packageId>
 			<displayName>fried rice</displayName>
-			<downloadUrl>https://github.com/</downloadUrl>
+			<downloadUrl>https://github.com/boomerchan/boomer.patches</downloadUrl>
 		</li>
 		<li>
 			<packageId>boomer.genes</packageId>
 			<displayName>gene expansion</displayName>
-			<downloadUrl>https://github.com/</downloadUrl>
+			<downloadUrl>https://github.com/boomerchan/boomer.genes</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadBefore />
