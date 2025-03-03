@@ -3,7 +3,7 @@
 		<operations>
 			<!--add succubi to vanilla factions-->
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/FactionDef[@Name="OutlanderFactionBase" or @Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+				<xpath>//FactionDef[@Name="OutlanderFactionBase" or @Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
 				<value>
 					<SuccubusXeno>0.05</SuccubusXeno>
 				</value>
