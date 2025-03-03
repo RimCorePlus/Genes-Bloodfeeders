@@ -1,0 +1,14 @@
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!--Adds succubi to vanilla factions-->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[@Name="OutlanderFactionBase" or
+				@Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+				<value>
+					<SuccubusXeno>0.05</SuccubusXeno>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
