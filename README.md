@@ -5,7 +5,7 @@ Scope of this mod:
 - Add hemogenic xenotypes and other related content
 - Potentially rebalance certain aspects of sanguophage to fit around new additions
 
-General sanguophage rebalances should be done by [fried rice](https://github.com/boomersama/boomer.patches) so any additional changes can be built upon by this mod.
+General sanguophage rebalances should be done by [fried rice](https://github.com/friedriceworld/fried-rice) so any additional changes can be built upon by this mod.
 
 ## Additions
 - Adds succubi and a bloodfeeder-worshipping industrial faction
