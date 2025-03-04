@@ -8,7 +8,12 @@ Scope of this mod:
 General sanguophage rebalances should be done by [fried rice](https://github.com/friedriceworld/fried-rice) so any additional changes can be built upon by this mod.
 
 ## Additions
-- Adds succubi and a bloodfeeder-worshipping industrial faction
+- Succubi and an industrial faction for bloodfeeders
+
+## To-do:
+Succubi aren't fun to play with. I think they need to be buffed, maybe provide larger mood buffs to their lovers and some kind of combat ability to offset the hemogen drain. The faction also too similar to outlander factions despite being a vampire-worshipping cult.
+
+Need to brainstorm another hemogenic xenotype. Maybe dhampir? Or something more demonic?
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
