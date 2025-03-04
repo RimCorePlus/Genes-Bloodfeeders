@@ -1,4 +1,4 @@
-# bloodfeeders
+# bloodfeeder expansion
 Scope of this mod:
 - Add hemogenic xenotypes and other related content
 - Potentially rebalance certain aspects of sanguophage to fit around new additions
