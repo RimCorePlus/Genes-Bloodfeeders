@@ -5,7 +5,7 @@
 		<label>succubus</label>
 		<description>Succubi are female humanoids resembling demons. They sleep twice as often as baseliners, require blood to sustain themselves, and are lousy combatants. However, their psychic bonding abilities and genetic optimism make them valuable concubines for powerful suitors.</description>
 		<descriptionShort>Female humanoids resembling demons.</descriptionShort>
-		<iconPath>UI/Icons/Xenotypes/succubus</iconPath>
+		<iconPath>UI/Icons/Xenotypes/succubusXenotype</iconPath>
 		<inheritable>true</inheritable>
 		<genes>
 			<li>Hemogenic</li>
