@@ -3,7 +3,7 @@
 		<defName>BloodfeederClan</defName>
 		<label>bloodfeeder clan</label>
 		<description>A group of ancient sanguophages and their thralls.</description>
-		<factionIconPath>UI/Icons/Xenotypes/Sanguophage</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/bloodfeederClan</factionIconPath>
 		<pawnSingular>bloodfeeder</pawnSingular>
 		<pawnsPlural>bloodfeeders</pawnsPlural>
 		<categoryTag>Sanguophages</categoryTag>
