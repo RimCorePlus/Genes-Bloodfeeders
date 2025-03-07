@@ -10,8 +10,7 @@
 [badge-dlc-anomaly]: https://img.shields.io/badge/DLC-Anomaly-darkseagreen
 
 # bloodfeeder expansion
-![](About/Preview.png)
-
+![](About/Preview.png)\
 [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0) ![Requires Biotech][badge-dlc-biotech]
 
 Scope of this mod:
@@ -23,10 +22,10 @@ General sanguophage rebalances should be done in [fried rice](https://github.com
 ## Additions
 - Succubi and an industrial faction for bloodfeeders
 
-## To-do:
-Succubi aren't fun to play with. I think they need to be buffed, maybe provide larger mood buffs to their lovers and some kind of combat ability to offset the hemogen drain. The faction also too similar to outlander factions despite being a vampire-worshipping cult.
-
-Need to brainstorm another hemogenic xenotype. Maybe dhampir? Or something more demonic?
+## Version 1.0:
+- [ ] Buff and rebalance succubi
+- [ ] Add at least one more hemogenic xenotype (dhampir?)
+- [ ] Rewrite bloodfeeder clan to be more distinct from vanilla outlander factions
 
 # Legal
 Portions of the materials used to create this mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This mod is not official and is not endorsed by Ludeon.
