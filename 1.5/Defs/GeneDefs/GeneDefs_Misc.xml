@@ -9,6 +9,9 @@
 			<li>Beauty</li>
 		</exclusionTags>
 		<displayOrderInCategory>999</displayOrderInCategory>
+		<customEffectDescriptions>
+			<li>Significantly increases the chance of lovin'.</li>
+		</customEffectDescriptions>
 		<statOffsets>
 			<PawnBeauty>3</PawnBeauty>
 			<SocialImpact>0.2</SocialImpact>
