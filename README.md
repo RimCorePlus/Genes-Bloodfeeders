@@ -31,4 +31,5 @@ General sanguophage rebalances should be done in [\[Core+\] Genes](https://githu
 Portions of the materials used to create this mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This mod is not official and is not endorsed by Ludeon.
 
 Crypt entrance icon by Delapouite from [Game-icons.net](https://game-icons.net/) (CC BY 3.0)\
-devil heart by Design Circle from [Noun Project](https://thenounproject.com/) (CC BY 3.0)
+devil heart by Design Circle from [Noun Project](https://thenounproject.com/) (CC BY 3.0)\
+Evil love icon by Delapouite from [Game-icons.net](https://game-icons.net/) (CC BY 3.0)

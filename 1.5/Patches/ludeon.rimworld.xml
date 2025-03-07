@@ -5,7 +5,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>//FactionDef[@Name="OutlanderFactionBase" or @Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
 				<value>
-					<SuccubusXeno>0.05</SuccubusXeno>
+					<CorePlus_Enchanter>0.05</CorePlus_Enchanter>
 				</value>
 			</li>
 		</operations>

@@ -1,15 +1,32 @@
 <Defs>
 	<!--succubus-->
 	<XenotypeDef>
-		<defName>SuccubusXeno</defName>
-		<label>succubus</label>
-		<description>Succubi are female humanoids resembling demons. They sleep twice as often as baseliners, require blood to sustain themselves, and are lousy combatants. However, their psychic bonding abilities and genetic optimism make them valuable concubines for powerful suitors.</description>
-		<descriptionShort>Female humanoids resembling demons.</descriptionShort>
-		<iconPath>UI/Icons/Xenotypes/succubusXenotype</iconPath>
+		<defName>CorePlus_Enchanter</defName>
+		<label>enchanter</label>
+		<description>Enchanters are demonic, bloodfeeding xenohumans capable of using hemogen to implant their desires into the minds of others. They are exceptionally beautiful and highly promiscuous. Often found in the company of sanguophages and their thralls, enchanters have a natural urge to manipulate others.</description>
+		<descriptionShort>Bloodfeeding xenohumans capable of implanting their desires into the minds of others.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/Enchanter</iconPath>
 		<inheritable>true</inheritable>
-		<genes><!--WIP rework-->
-			<li>Hemogenic</li>
+		<genes>			<!--WIP rework-->
+			<li>AFU_BA_LovelyDevilTail</li>
+			<li>AFU_HA_HalfDemonEar</li>
 			<li>Bloodfeeder</li>
+			<li>Body_Standard</li>
+			<li>CorePlus_EnchanterGene</li>
+			<li>CorePlus_HemoWords</li>
+			<li>Eyes_Red</li>
+			<li>FireWeakness</li>
+			<li>Hair_Blonde</li>
+			<li>Hair_DarkBlack</li>
+			<li>Hair_Grayless</li>
+			<li>Hair_InkBlack</li>
+			<li>Hair_LightPurple</li>
+			<li>Hair_LongOnly</li>
+			<li>Hair_Pink</li>
+			<li>Headbone_MiniHorns</li>
+			<li>Hemogenic</li>
+			<li>PsychicAbility_Deaf</li>
+			<li>Skin_PaleRed</li>
 		</genes>
 	</XenotypeDef>
 </Defs>

@@ -45,7 +45,7 @@
 		</structureMemeWeights>
 		<xenotypeSet>
 			<xenotypeChances>
-				<SuccubusXeno>0.1</SuccubusXeno>
+				<CorePlus_Enchanter>0.1</CorePlus_Enchanter>
 			</xenotypeChances>
 		</xenotypeSet>
 		<modExtensions>

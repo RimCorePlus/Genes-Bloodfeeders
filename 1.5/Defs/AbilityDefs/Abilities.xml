@@ -8,7 +8,7 @@
         <statBases>
             <Ability_Duration>8000</Ability_Duration>
         </statBases>
-        <cooldownTicksRange>60000</cooldownTicksRange>
+        <cooldownTicksRange>180000</cooldownTicksRange>
         <category>Sanguophage</category>
         <aiCanUse>false</aiCanUse>
         <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
@@ -46,7 +46,7 @@
         <statBases>
             <Ability_Duration>5000</Ability_Duration>
         </statBases>
-        <cooldownTicksRange>60000</cooldownTicksRange>
+        <cooldownTicksRange>180000</cooldownTicksRange>
         <category>Sanguophage</category>
         <aiCanUse>false</aiCanUse>
         <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
