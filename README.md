@@ -9,7 +9,7 @@
 <!--![Supports Anomaly][badge-dlc-anomaly] supports Anomaly DLC-->
 [badge-dlc-anomaly]: https://img.shields.io/badge/DLC-Anomaly-darkseagreen
 
-# bloodfeeder expansion
+# [Core+] Bloodfeeders
 ![](About/Preview.png)\
 [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0) ![Requires Biotech][badge-dlc-biotech]
 
@@ -17,7 +17,7 @@ Scope of this mod:
 - Add hemogenic xenotypes and other related content
 - Potentially rebalance certain aspects of sanguophage to fit around new additions
 
-General sanguophage rebalances should be done in [fried rice](https://github.com/friedriceworld/fried-rice).
+General sanguophage rebalances should be done in [\[Core+\] Genes](https://github.com/RimCorePlus/Genes).
 
 ## Additions
 - Succubi and an industrial faction for bloodfeeders
