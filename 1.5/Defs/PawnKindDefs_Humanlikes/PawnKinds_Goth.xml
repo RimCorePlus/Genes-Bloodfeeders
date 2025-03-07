@@ -1,21 +1,4 @@
 <Defs>
-	<PawnKindDef ParentName="VillagerBase">
-		<defName>GothVillager</defName>
-		<specificApparelRequirements>
-			<li>
-				<colorGenerator Class="ColorGenerator_Options">
-					<options>
-						<li>
-							<only>(58, 58, 58)</only>
-						</li>
-						<li>
-							<only>(74, 1, 9)</only>
-						</li>
-					</options>
-				</colorGenerator>
-			</li>
-		</specificApparelRequirements>
-	</PawnKindDef>
 	<PawnKindDef ParentName="GrenadierBase">
 		<defName>GothGrenadier</defName>
 		<label>grenadier</label>
@@ -43,6 +26,7 @@
 	</PawnKindDef>
 	<PawnKindDef ParentName="MercenarySlasherBase">
 		<defName>GothSlasher</defName>
+		<label>sanguophage slasher</label>
 		<specificApparelRequirements>
 			<li>
 				<colorGenerator Class="ColorGenerator_Options">
@@ -57,6 +41,11 @@
 				</colorGenerator>
 			</li>
 		</specificApparelRequirements>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Sanguophage>999</Sanguophage>
+			</xenotypeChances>
+		</xenotypeSet>
 		<initialResistanceRange>10~16</initialResistanceRange>
 	</PawnKindDef>
 	<PawnKindDef ParentName="MercenaryGunnerBase">
@@ -94,57 +83,6 @@
 			</li>
 		</specificApparelRequirements>
 		<initialResistanceRange>15~23</initialResistanceRange>
-	</PawnKindDef>
-	<PawnKindDef ParentName="CouncilmanBase">
-		<defName>GothCouncilman</defName>
-		<specificApparelRequirements>
-			<li>
-				<colorGenerator Class="ColorGenerator_Options">
-					<options>
-						<li>
-							<only>(58, 58, 58)</only>
-						</li>
-						<li>
-							<only>(74, 1, 9)</only>
-						</li>
-					</options>
-				</colorGenerator>
-			</li>
-		</specificApparelRequirements>
-	</PawnKindDef>
-	<PawnKindDef ParentName="TraderBase">
-		<defName>GothTrader</defName>
-		<specificApparelRequirements>
-			<li>
-				<colorGenerator Class="ColorGenerator_Options">
-					<options>
-						<li>
-							<only>(58, 58, 58)</only>
-						</li>
-						<li>
-							<only>(74, 1, 9)</only>
-						</li>
-					</options>
-				</colorGenerator>
-			</li>
-		</specificApparelRequirements>
-	</PawnKindDef>
-	<PawnKindDef ParentName="Villager_Child">
-		<defName>GothVillagerChild</defName>
-		<specificApparelRequirements>
-			<li>
-				<colorGenerator Class="ColorGenerator_Options">
-					<options>
-						<li>
-							<only>(58, 58, 58)</only>
-						</li>
-						<li>
-							<only>(74, 1, 9)</only>
-						</li>
-					</options>
-				</colorGenerator>
-			</li>
-		</specificApparelRequirements>
 	</PawnKindDef>
 	<PawnKindDef>
 		<defName>GothThrall</defName>
@@ -197,7 +135,6 @@
 				</colorGenerator>
 			</li>
 		</specificApparelRequirements>
-		<!--I don't know if this does anything-->
 		<xenotypeSet>
 			<xenotypeChances>
 				<Baseliner>999</Baseliner>

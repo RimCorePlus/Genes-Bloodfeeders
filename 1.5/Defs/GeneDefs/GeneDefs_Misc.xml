@@ -1,13 +1,41 @@
 <Defs>
-	<GeneDef ParentName="LibidoBase">
-		<defName>LibidoHyper</defName>
-		<label>hyper libido</label>
-		<description>Carriers of this gene are insatiable.</description>
+	<GeneDef><!--this still needs a lot of work but I'm tired-->
+		<defName>CorePlus_FemmeFatale</defName>
+		<label>femme fatale</label>
+		<description>Carriers of this gene can convert hemogen into pure psychic energy, manipulating those around them.</description>
 		<customEffectDescriptions>
 			<li>Significantly increases the chance of lovin'.</li>
 		</customEffectDescriptions>
 		<iconPath>UI/Icons/Genes/Gene_HyperLibido</iconPath>
-		<displayOrderInCategory>10</displayOrderInCategory>
+		<displayCategory>Hemogen</displayCategory>
+		<displayOrderInCategory>200</displayOrderInCategory>
+		<prerequisite>Hemogenic</prerequisite>
 		<lovinMTBFactor>0.1</lovinMTBFactor>
+		<exclusionTags>
+			<li>genderoverride</li>
+		</exclusionTags>
+		<suppressedTraits>
+			<li>
+				<def>Gay</def>
+			</li>
+		</suppressedTraits>
+		<forcedHeadTypes>
+			<li>Female_AverageNormal</li>
+			<li>Female_AveragePointy</li>
+		</forcedHeadTypes>
+		<bodyType>Standard</bodyType>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<forceFemale>true</forceFemale>
+			</li>
+		</modExtensions>
+		<abilities>
+			<li>
+				<def>CorePlus_WordOfLove</def>
+			</li>
+			<li>
+				<def>CorePlus_WordOfJoy</def>
+			</li>
+		</abilities>
 	</GeneDef>
 </Defs>

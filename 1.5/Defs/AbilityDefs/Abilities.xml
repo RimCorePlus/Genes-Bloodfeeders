@@ -1,0 +1,84 @@
+<Defs>
+    <AbilityDef>
+        <defName>CorePlus_WordOfLove</defName>
+        <label>word of love</label>
+        <description>Speak about someone's romantic virtues while using psychic suggestion to implant romantic desire in the listener. For days afterward, the listener will feel psychically-induced romantic attraction towards the other person. This greatly increases opinion and makes them much more likely to attempt romantic advances and marriage proposals if they get the chance. This power can be used to connect two other people, induce love for the caster, or force oneself to love another.</description>
+        <iconPath>UI/Abilities/WordOfLove</iconPath>
+        <displayOrder>200</displayOrder>
+        <statBases>
+            <Ability_Duration>8000</Ability_Duration>
+        </statBases>
+        <cooldownTicksRange>60000</cooldownTicksRange>
+        <category>Sanguophage</category>
+        <aiCanUse>false</aiCanUse>
+        <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+        <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <range>29.9</range>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>1</warmupTime>
+            <targetParams>
+                <canTargetSelf>false</canTargetSelf>
+                <canTargetBuildings>false</canTargetBuildings>
+                <canTargetPawns>True</canTargetPawns>
+                <canTargetMechs>false</canTargetMechs>
+                <canTargetAnimals>false</canTargetAnimals>
+            </targetParams>
+            <violent>false</violent>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityWordOfLove">
+                <applicableToMechs>false</applicableToMechs>
+                <destination>Selected</destination>
+            </li>
+            <li Class="CompProperties_AbilityHemogenCost">
+                <hemogenCost>0.5</hemogenCost>
+            </li>
+        </comps>
+    </AbilityDef>
+    <AbilityDef>
+        <defName>CorePlus_WordOfJoy</defName>
+        <label>word of joy</label>
+        <description>Speak happy, calming words to someone while using psychic suggestion to implant a joyfuzz loop in their mind. The joyfuzz will suppress uncomfortable thoughts and sensations in the target to improve mood. This has the side-effect of dulling sensation and decision-making, which reduces consciousness.</description>
+        <iconPath>UI/Abilities/WordOfJoy</iconPath>
+        <displayOrder>210</displayOrder>
+        <statBases>
+            <Ability_Duration>5000</Ability_Duration>
+        </statBases>
+        <cooldownTicksRange>60000</cooldownTicksRange>
+        <category>Sanguophage</category>
+        <aiCanUse>false</aiCanUse>
+        <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+        <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <verbProperties>
+            <range>29.9</range>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>1</warmupTime>
+            <targetParams>
+                <canTargetSelf>false</canTargetSelf>
+                <canTargetBuildings>false</canTargetBuildings>
+                <canTargetPawns>True</canTargetPawns>
+                <canTargetMechs>false</canTargetMechs>
+                <canTargetAnimals>false</canTargetAnimals>
+            </targetParams>
+            <violent>false</violent>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>Joyfuzz</hediffDef>
+                <onlyBrain>True</onlyBrain>
+                <applicableToMechs>False</applicableToMechs>
+                <goodwillImpact>-25</goodwillImpact>
+            </li>
+            <li Class="CompProperties_AbilitySocialInteraction">
+                <interactionDef>WordOfJoy</interactionDef>
+            </li>
+            <li Class="CompProperties_AbilityHemogenCost">
+                <hemogenCost>0.4</hemogenCost>
+            </li>
+        </comps>
+    </AbilityDef>
+</Defs>

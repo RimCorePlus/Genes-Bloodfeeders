@@ -2,12 +2,12 @@
 	<FactionDef ParentName="FactionBase">
 		<defName>BloodfeederClan</defName>
 		<label>bloodfeeder clan</label>
-		<description>A group of ancient sanguophages and their thralls.</description>
+		<description>A loose coalition of bloodfeeders and their thralls.</description>
 		<factionIconPath>World/WorldObjects/Expanding/BloodfeederClan</factionIconPath>
 		<pawnSingular>bloodfeeder</pawnSingular>
 		<pawnsPlural>bloodfeeders</pawnsPlural>
 		<categoryTag>Sanguophages</categoryTag>
-		<naturalEnemy>true</naturalEnemy>
+		<permanentEnemy>true</permanentEnemy>
 		<listOrderPriority>32</listOrderPriority>
 		<earliestRaidDays>60</earliestRaidDays>
 		<settlementGenerationWeight>0.6</settlementGenerationWeight>
@@ -33,9 +33,9 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
 		</disallowedMemes>
 		<disallowedPrecepts>
-			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li> <!-- Never generate with any apparel precepts -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li> <!-- Never generate nudity precepts -->
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
@@ -48,6 +48,12 @@
 				<SuccubusXeno>0.1</SuccubusXeno>
 			</xenotypeChances>
 		</xenotypeSet>
+		<modExtensions>
+			<li Class="VFECore.FactionDefExtension">
+				<neverConnectToRoads>true</neverConnectToRoads>
+				<minDistanceToOtherSettlements>10</minDistanceToOtherSettlements>
+			</li>
+		</modExtensions>
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -82,54 +88,21 @@
 				<!-- Normal fights, standard mix -->
 				<kindDef>Combat</kindDef>
 				<options>
-					<GothVillager>5</GothVillager>
-					<GothThrall>10</GothThrall>
-					<GothGrenadier>1.5</GothGrenadier>
-					<GothSlasher>7</GothSlasher>
+					<GothThrall>20</GothThrall>
+					<GothGrenadier>5</GothGrenadier>
+					<GothSlasher>1</GothSlasher>
 					<GothGunner>10</GothGunner>
 					<GothElite>10</GothElite>
-					<GothCouncilman>10</GothCouncilman>
 				</options>
-			</li>
-			<li>
-				<kindDef>Peaceful</kindDef>
-				<options>
-					<GothVillager>20</GothVillager>
-					<GothVillagerChild MayRequire="Ludeon.RimWorld.Biotech">10</GothVillagerChild>
-					<GothThrall>10</GothThrall>
-					<GothCouncilman>10</GothCouncilman>
-				</options>
-			</li>
-			<li>
-				<kindDef>Trader</kindDef>
-				<traders>
-					<GothTrader>1</GothTrader>
-				</traders>
-				<carriers>
-					<Muffalo>6</Muffalo>
-					<Dromedary>5</Dromedary>
-					<Alpaca>2</Alpaca>
-					<Elephant>1</Elephant>
-				</carriers>
-				<guards>
-					<GothVillager>3</GothVillager>
-					<GothThrall>10</GothThrall>
-					<Sanguophage>1</Sanguophage>
-					<GothSlasher>7</GothSlasher>
-					<GothGunner>10</GothGunner>
-					<GothElite>10</GothElite>
-				</guards>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<GothVillager>10</GothVillager>
-					<GothThrall>10</GothThrall>
-					<Sanguophage>3</Sanguophage>
-					<GothSlasher>7</GothSlasher>
+					<GothThrall>20</GothThrall>
+					<GothGrenadier>5</GothGrenadier>
+					<GothSlasher>1</GothSlasher>
 					<GothGunner>10</GothGunner>
 					<GothElite>10</GothElite>
-					<GothCouncilman>10</GothCouncilman>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">

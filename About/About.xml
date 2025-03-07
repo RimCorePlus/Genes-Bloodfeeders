@@ -11,9 +11,12 @@
 	<url>https://github.com/RimCorePlus/Bloodfeeders</url>
 	<modDependencies>
 		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 			<displayName>Biotech</displayName>
-			<steamWorkshopUrl>BiotechsSteamStorePage</steamWorkshopUrl>
 		</li>
 		<li>
 			<packageId>coreplus.genes</packageId>
