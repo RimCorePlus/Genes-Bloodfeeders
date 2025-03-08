@@ -20,12 +20,7 @@ Scope of this mod:
 General sanguophage rebalances should be done in [\[Core+\] Genes](https://github.com/RimCorePlus/Genes-Genes).
 
 ## Additions
-- Succubi and an industrial faction for bloodfeeders
-
-## Version 1.0:
-- [ ] Buff and rebalance succubi
-- [ ] Add at least one more hemogenic xenotype (dhampir?)
-- [ ] Rewrite bloodfeeder clan to be more distinct from vanilla outlander factions
+- Enchanters (succubi and incubi) and an industrial faction for bloodfeeders
 
 ## Legal
 Portions of the materials used to create this mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This mod is not official and is not endorsed by Ludeon.
