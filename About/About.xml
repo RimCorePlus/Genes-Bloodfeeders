@@ -1,6 +1,6 @@
 <ModMetaData>
-	<packageId>coreplus.bloodfeeders</packageId>
-	<name>[Core+] Bloodfeeders</name>
+	<packageId>coreplus.genes.bloodfeeders</packageId>
+	<name>[Core+] Genes - Bloodfeeders</name>
 	<author>boomer</author>
 	<description />
 	<supportedVersions>
@@ -8,7 +8,7 @@
 	</supportedVersions>
 	<modVersion>1.5.0</modVersion>
 	<modIconPath IgnoreIfNoMatchingField="True" />
-	<url>https://github.com/RimCorePlus/Bloodfeeders</url>
+	<url>https://github.com/RimCorePlus/Genes-Bloodfeeders</url>
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Royalty</packageId>
