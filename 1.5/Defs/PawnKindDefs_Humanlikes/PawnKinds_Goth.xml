@@ -135,7 +135,7 @@
 				</colorGenerator>
 			</li>
 		</specificApparelRequirements>
-		<xenotypeSet>
+		<xenotypeSet Inherit="False">
 			<xenotypeChances>
 				<Baseliner>999</Baseliner>
 			</xenotypeChances>
