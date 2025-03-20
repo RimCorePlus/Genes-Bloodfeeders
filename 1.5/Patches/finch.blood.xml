@@ -1,0 +1,18 @@
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>ↁ House Sanguin [Continued]</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>//FactionDef[defName="DevDesigner_FierceHouseSanguin"]/xenotypeSet/xenotypeChances</xpath>
+                    <value>
+                        <Sanguophage>0.01</Sanguophage>
+                        <CorePlus_Enchanter>0.05</CorePlus_Enchanter>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
