@@ -24,6 +24,7 @@
 		<li>coreplus.rebalance</li>
 		<li>coreplus.debloat</li>
 		<li>coreplus.genes</li>
+		<li>dankpyon.medieval.overhaul</li>
 	</loadAfter>
 	<incompatibleWith />
 </ModMetaData>
