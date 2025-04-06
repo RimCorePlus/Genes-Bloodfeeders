@@ -1,20 +1,24 @@
 <Defs>
 	<FactionDef ParentName="FactionBase">
-		<defName>BloodfeederClan</defName>
+		<defName>CorePlus_BloodfeederClan</defName>
 		<label>bloodfeeder clan</label>
-		<description>A loose coalition of bloodfeeders and their thralls.</description>
+		<description>An organized coalition of bloodfeeders and their thralls. They are not interested in diplomacy or trade.\n\nBloodfeeders attack with a blend of spacer tech and medieval arms.</description>
 		<factionIconPath>World/WorldObjects/Expanding/BloodfeederClan</factionIconPath>
 		<pawnSingular>bloodfeeder</pawnSingular>
 		<pawnsPlural>bloodfeeders</pawnsPlural>
 		<categoryTag>Sanguophages</categoryTag>
 		<permanentEnemy>true</permanentEnemy>
-		<listOrderPriority>32</listOrderPriority>
 		<earliestRaidDays>60</earliestRaidDays>
 		<settlementGenerationWeight>0.6</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
-		<leaderTitle>leader</leaderTitle>
+		<leaderTitle>lord</leaderTitle>
+		<leaderTitleFemale>lady</leaderTitleFemale>
+		<fixedLeaderKinds>
+			<li>CorePlus_GothSanguophageKnight</li>
+			<li>CorePlus_GothSanguophageSlayer</li>
+		</fixedLeaderKinds>
 		<techLevel>Spacer</techLevel>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
@@ -45,7 +49,8 @@
 		</structureMemeWeights>
 		<xenotypeSet>
 			<xenotypeChances>
-				<CorePlus_Enchanter>0.1</CorePlus_Enchanter>
+				<CorePlus_DarkElf MayRequire="coreplus.genes.elves">0.1</CorePlus_DarkElf>
+				<CorePlus_Enchanter>0.05</CorePlus_Enchanter>
 			</xenotypeChances>
 		</xenotypeSet>
 		<modExtensions>
@@ -62,16 +67,16 @@
 				</categories>
 			</li>
 		</backstoryFilters>
-		<caravanTraderKinds>
-			<li>Caravan_Outlander_CombatSupplier</li>
-			<li>Caravan_Outlander_Exotic</li>
-		</caravanTraderKinds>
-		<visitorTraderKinds>
-			<li>Visitor_Outlander_Standard</li>
-		</visitorTraderKinds>
-		<baseTraderKinds>
-			<li>Base_Outlander_Standard</li>
-		</baseTraderKinds>
+		<caravanTraderKinds />
+		<visitorTraderKinds />
+		<baseTraderKinds />
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Leather_Human</li>
+				<li>Synthread</li>
+				<li>Steel</li>
+			</thingDefs>
+		</apparelStuffFilter>
 		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
 		<raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
 		<maxPawnCostPerTotalPointsCurve>
@@ -88,21 +93,23 @@
 				<!-- Normal fights, standard mix -->
 				<kindDef>Combat</kindDef>
 				<options>
-					<GothThrall>20</GothThrall>
-					<GothGrenadier>5</GothGrenadier>
-					<GothSlasher>1</GothSlasher>
-					<GothGunner>10</GothGunner>
-					<GothElite>10</GothElite>
+					<CorePlus_GothThrall>25</CorePlus_GothThrall>
+					<CorePlus_GothThrallAlt>5</CorePlus_GothThrallAlt>
+					<CorePlus_GothThrallKnight>8</CorePlus_GothThrallKnight>
+					<CorePlus_GothSanguophageKnight>2</CorePlus_GothSanguophageKnight>
+					<CorePlus_GothSanguophageSlayer>1</CorePlus_GothSanguophageSlayer>
+					<CorePlus_GothEnchanterGunner>4</CorePlus_GothEnchanterGunner>
 				</options>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<GothThrall>20</GothThrall>
-					<GothGrenadier>5</GothGrenadier>
-					<GothSlasher>1</GothSlasher>
-					<GothGunner>10</GothGunner>
-					<GothElite>10</GothElite>
+					<CorePlus_GothThrall>25</CorePlus_GothThrall>
+					<CorePlus_GothThrallAlt>5</CorePlus_GothThrallAlt>
+					<CorePlus_GothThrallKnight>8</CorePlus_GothThrallKnight>
+					<CorePlus_GothSanguophageKnight>2</CorePlus_GothSanguophageKnight>
+					<CorePlus_GothSanguophageSlayer>1</CorePlus_GothSanguophageSlayer>
+					<CorePlus_GothEnchanterGunner>4</CorePlus_GothEnchanterGunner>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">

@@ -18,6 +18,11 @@
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 			<displayName>Biotech</displayName>
 		</li>
+		<li>
+			<packageId>Finch.Blood</packageId>
+			<displayName>ↁ House Sanguin [Continued]</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3292190756</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<loadBefore />
 	<loadAfter>
@@ -25,6 +30,7 @@
 		<li>coreplus.debloat</li>
 		<li>coreplus.genes</li>
 		<li>dankpyon.medieval.overhaul</li>
+		<li>Finch.Blood</li>
 	</loadAfter>
 	<incompatibleWith />
 </ModMetaData>
