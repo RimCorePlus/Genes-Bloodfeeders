@@ -1,5 +1,5 @@
 <Defs>
-	<PawnKindDef Name="CorePlus_GothBase" Abstract="True">
+	<PawnKindDef Name="CorePlus_GothBase" ParentName="OutlanderBase" Abstract="True">
 		<race>Human</race>
 		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
 		<chemicalAddictionChance>0.05</chemicalAddictionChance>
