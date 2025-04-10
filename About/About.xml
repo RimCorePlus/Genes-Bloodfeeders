@@ -23,6 +23,11 @@
 			<displayName>ↁ House Sanguin [Continued]</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3292190756</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>vanillaexpanded.vappe</packageId>
+			<displayName>Vanilla Apparel Expanded</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1814987817</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<loadBefore />
 	<loadAfter>
@@ -31,6 +36,7 @@
 		<li>coreplus.genes</li>
 		<li>dankpyon.medieval.overhaul</li>
 		<li>Finch.Blood</li>
+		<li>vanillaexpanded.vappe</li>
 	</loadAfter>
 	<incompatibleWith />
 </ModMetaData>
