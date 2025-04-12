@@ -8,8 +8,7 @@
 		<iconPath>UI/Icons/Xenotypes/Enchanter</iconPath>
 		<inheritable>true</inheritable>
 		<genes>			<!--WIP rework-->
-			<li>AFU_BA_LovelyDevilTail</li>
-			<li>AFU_HA_HalfDemonEar</li>
+			<li>Outland_Tail_Imp</li>
 			<li>Bloodfeeder</li>
 			<li>Body_Standard</li>
 			<li>CorePlus_EnchanterGene</li>
