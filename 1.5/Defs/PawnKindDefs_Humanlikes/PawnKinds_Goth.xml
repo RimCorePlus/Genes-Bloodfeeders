@@ -179,7 +179,7 @@
 		<combatPower>100</combatPower>
 		<canBeSapper>true</canBeSapper>
 		<isGoodBreacher>true</isGoodBreacher>
-		<weaponMoney>300~5000</weaponMoney>
+		<weaponMoney>355~5000</weaponMoney>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
 			<li>SpacerGun</li>

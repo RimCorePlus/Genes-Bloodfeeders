@@ -23,7 +23,7 @@
 			<displayName>ↁ House Sanguin [Continued]</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3292190756</steamWorkshopUrl>
 		</li>
-		<li>
+		<!--<li>
 			<packageId>neronix17.outland.genetics</packageId>
 			<displayName>Outland - Genetics</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</steamWorkshopUrl>
@@ -32,7 +32,7 @@
 			<packageId>vanillaexpanded.vappe</packageId>
 			<displayName>Vanilla Apparel Expanded</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1814987817</steamWorkshopUrl>
-		</li>
+		</li>-->
 	</modDependencies>
 	<loadBefore />
 	<loadAfter>

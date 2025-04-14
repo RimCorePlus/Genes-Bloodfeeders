@@ -8,7 +8,7 @@
 		<iconPath>UI/Icons/Xenotypes/Enchanter</iconPath>
 		<inheritable>true</inheritable>
 		<genes>			<!--WIP rework-->
-			<li>Outland_Tail_Imp</li>
+			<!--<li>Outland_Tail_Imp</li>-->
 			<li>Bloodfeeder</li>
 			<li>Body_Standard</li>
 			<li>CorePlus_EnchanterGene</li>
