@@ -7,8 +7,9 @@
 		<descriptionShort>Bloodfeeding xenohumans capable of implanting their desires into the minds of others.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/Enchanter</iconPath>
 		<inheritable>true</inheritable>
-		<genes>			<!--WIP rework-->
-			<!--<li>Outland_Tail_Imp</li>-->
+		<genes>
+			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_BA_LovelyDevilTail</li>
+			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_HalfDemonEar</li>
 			<li>Bloodfeeder</li>
 			<li>Body_Standard</li>
 			<li>CorePlus_EnchanterGene</li>
