@@ -2,7 +2,7 @@
 	<packageId>coreplus.genes.bloodfeeders</packageId>
 	<name>[Core+] Genes - Bloodfeeders</name>
 	<author>boomer</author>
-	<description />
+	<description>Bloodfeeder faction raids with sanguinary animals:\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=2923829125</description>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
@@ -32,6 +32,7 @@
 		<li>dankpyon.medieval.overhaul</li>
 		<li>Finch.Blood</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
+		<li>pphhyy.sanguinaryanimals</li>
 		<li>vanillaexpanded.vappe</li>
 	</loadAfter>
 	<incompatibleWith />

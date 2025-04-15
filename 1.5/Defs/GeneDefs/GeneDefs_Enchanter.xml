@@ -16,6 +16,7 @@
 			<PawnBeauty>3</PawnBeauty>
 			<SocialImpact>0.2</SocialImpact>
 		</statOffsets>
+		<missingGeneRomanceChanceFactor>2</missingGeneRomanceChanceFactor>
 		<lovinMTBFactor>0.1</lovinMTBFactor>
 		<bodyType>Standard</bodyType>
 		<biostatMet>-3</biostatMet>

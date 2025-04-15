@@ -1,0 +1,159 @@
+<Defs>
+    <!--abilities are disabled for AI for now while I figure out why they stand still for hours to cast them-->
+    <AbilityDef>
+        <defName>CorePlus_HemogenMist</defName>
+        <label>hemo mist</label>
+        <description>Release hemogen as a mist. Mist reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely.</description>
+        <iconPath>UI/Icons/Genes/CorePlus_BloodMist</iconPath>
+        <cooldownTicksRange>1</cooldownTicksRange>
+        <aiCanUse>true</aiCanUse>
+        <targetRequired>false</targetRequired>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>1</warmupTime>
+            <range>3.9</range>
+            <drawAimPie>false</drawAimPie>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilitySmokepop">
+                <smokeRadius>3.5</smokeRadius>
+                <clamorType>Ability</clamorType>
+                <clamorRadius>15</clamorRadius>
+            </li>
+            <li Class="CompProperties_AbilityHemogenCost">
+                <hemogenCost>0.1</hemogenCost>
+            </li>
+        </comps>
+    </AbilityDef>
+    <AbilityDef>
+        <defName>CorePlus_Painblock</defName>
+        <label>hemo antigen</label>
+        <description>Convert hemogen into a powerful antigen that blocks pain and speeds up recovery.</description>
+        <iconPath>UI/Icons/Genes/CorePlus_PainBlood</iconPath>
+        <cooldownTicksRange>60000</cooldownTicksRange>
+        <aiCanUse>false</aiCanUse>
+        <targetRequired>false</targetRequired>
+        <statBases>
+            <Ability_Duration>120</Ability_Duration>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>1</warmupTime>
+            <range>0</range>
+            <drawAimPie>false</drawAimPie>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class = "CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>CorePlus_CirculateAntigen_Core</hediffDef>
+                <psychic>False</psychic>
+                <applicableToMechs>False</applicableToMechs>
+            </li>
+            <li Class="CompProperties_AbilityHemogenCost">
+                <hemogenCost>0.2</hemogenCost>
+            </li>
+        </comps>
+    </AbilityDef>
+    <AbilityDef>
+        <defName>CorePlus_StrengthHemogen</defName>
+        <label>hemo strength</label>
+        <description>Turn hemogen into raw physical strength.</description>
+        <iconPath>UI/Icons/Genes/CorePlus_StrengthBlood</iconPath>
+        <cooldownTicksRange>60000</cooldownTicksRange>
+        <aiCanUse>false</aiCanUse>
+        <targetRequired>false</targetRequired>
+        <statBases>
+            <Ability_Duration>120</Ability_Duration>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>1</warmupTime>
+            <range>0</range>
+            <drawAimPie>false</drawAimPie>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class = "CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>CorePlus_HemoMusculus_Core</hediffDef>
+                <psychic>False</psychic>
+                <applicableToMechs>False</applicableToMechs>
+            </li>
+            <li Class="CompProperties_AbilityHemogenCost">
+                <hemogenCost>0.2</hemogenCost>
+            </li>
+        </comps>
+    </AbilityDef>
+    <AbilityDef>
+        <defName>CorePlus_MindHemogen</defName>
+        <label>hemo stim</label>
+        <description>Convert hemogen into a mental stimulant increasing mental and psychic abilities.</description>
+        <iconPath>UI/Icons/Genes/CorePlus_MindBlood</iconPath>
+        <cooldownTicksRange>60000</cooldownTicksRange>
+        <aiCanUse>false</aiCanUse>
+        <targetRequired>false</targetRequired>
+        <statBases>
+            <Ability_Duration>120</Ability_Duration>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>1</warmupTime>
+            <range>0</range>
+            <drawAimPie>false</drawAimPie>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class = "CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>CorePlus_CirculateStimulant_Core</hediffDef>
+                <psychic>False</psychic>
+                <applicableToMechs>False</applicableToMechs>
+            </li>
+            <li Class="CompProperties_AbilityHemogenCost">
+                <hemogenCost>0.2</hemogenCost>
+            </li>
+        </comps>
+    </AbilityDef>
+    <AbilityDef>
+        <defName>CorePlus_HemogenAdrenline</defName>
+        <label>hemo surge</label>
+        <description>Converts hemogen into adrenaline.</description>
+        <iconPath>UI/Icons/Genes/CorePlus_HemogenAdrenline</iconPath>
+        <cooldownTicksRange>60000</cooldownTicksRange>
+        <aiCanUse>false</aiCanUse>
+        <targetRequired>false</targetRequired>
+        <statBases>
+            <Ability_Duration>120</Ability_Duration>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>1</warmupTime>
+            <range>0</range>
+            <drawAimPie>false</drawAimPie>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class = "CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>CorePlus_AdrenalinSurge_Core</hediffDef>
+                <psychic>False</psychic>
+                <applicableToMechs>True</applicableToMechs>
+            </li>
+            <li Class="CompProperties_AbilityHemogenCost">
+                <hemogenCost>0.2</hemogenCost>
+            </li>
+        </comps>
+    </AbilityDef>
+</Defs>

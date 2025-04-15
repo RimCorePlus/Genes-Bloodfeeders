@@ -82,9 +82,9 @@
 		</skills>
 	</PawnKindDef>
 	<PawnKindDef ParentName="CorePlus_GothBase">
-		<defName>CorePlus_GothThrallKnight</defName>
-		<label>blood knight</label>
-		<combatPower>75</combatPower>
+		<defName>CorePlus_GothBloodbeastKnight</defName>
+		<label>bloodbeast knight</label>
+		<combatPower>80</combatPower>
 		<canBeSapper>true</canBeSapper>
 		<isGoodBreacher>true</isGoodBreacher>
 		<weaponTags>
@@ -99,6 +99,13 @@
 			<li>DevDesigner_Blood_Apparel_FullPlate</li>
 			<li>DevDesigner_Blood_Apparel_Armet</li>
 		</apparelRequired>
+		<xenotypeSet>
+			<xenotypeChances>
+				<CorePlus_Bloodbeast>999</CorePlus_Bloodbeast>
+			</xenotypeChances>
+		</xenotypeSet>
+		<initialResistanceRange>18~30</initialResistanceRange>
+		<initialWillRange>10~16</initialWillRange>
 		<skills>
 			<li>
 				<skill>Melee</skill>

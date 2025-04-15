@@ -1,0 +1,15 @@
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>//PawnKindDef[defName="Mercenary_Slasher_Yttakin"]</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>//PawnKindDef[defName="Mercenary_Slasher_Yttakin"]</xpath>
+            <value>
+                <xenotypeSet Inherit="False">
+                    <xenotypeChances>
+                        <CorePlus_Bloodbeast>999</CorePlus_Bloodbeast>
+                    </xenotypeChances>
+                </xenotypeSet>
+            </value>
+        </match>
+    </Operation>
+</Patch>

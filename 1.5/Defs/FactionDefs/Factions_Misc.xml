@@ -95,10 +95,28 @@
 				<options>
 					<CorePlus_GothThrall>25</CorePlus_GothThrall>
 					<CorePlus_GothThrallAlt>5</CorePlus_GothThrallAlt>
-					<CorePlus_GothThrallKnight>8</CorePlus_GothThrallKnight>
+					<pphhyy_Vargulf MayRequire="pphhyy.sanguinaryanimals">15</pphhyy_Vargulf>
+					<CorePlus_GothBloodbeastKnight>8</CorePlus_GothBloodbeastKnight>
 					<CorePlus_GothSanguophageKnight>2</CorePlus_GothSanguophageKnight>
 					<CorePlus_GothSanguophageSlayer>1</CorePlus_GothSanguophageSlayer>
 					<CorePlus_GothEnchanterGunner>4</CorePlus_GothEnchanterGunner>
+				</options>
+			</li>
+			<!-- Raid Animal -->
+			<li MayRequire="pphhyy.sanguinaryanimals">
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>StageThenAttack</li>
+					<li>Siege</li>
+					<li>ImmediateAttackSappers</li>
+					<li>ImmediateAttackBreaching</li>
+					<li>ImmediateAttackBreachingSmart</li>
+				</disallowedStrategies>
+				<options>
+					<CorePlus_GothThrall>25</CorePlus_GothThrall>
+					<CorePlus_GothSanguophageKnight>2</CorePlus_GothSanguophageKnight>
+					<pphhyy_BloodScarab MayRequire="Ludeon.RimWorld.Biotech">25</pphhyy_BloodScarab>
+					<pphhyy_Vargulf>15</pphhyy_Vargulf>
 				</options>
 			</li>
 			<li>
@@ -106,7 +124,7 @@
 				<options>
 					<CorePlus_GothThrall>25</CorePlus_GothThrall>
 					<CorePlus_GothThrallAlt>5</CorePlus_GothThrallAlt>
-					<CorePlus_GothThrallKnight>8</CorePlus_GothThrallKnight>
+					<CorePlus_GothBloodbeastKnight>8</CorePlus_GothBloodbeastKnight>
 					<CorePlus_GothSanguophageKnight>2</CorePlus_GothSanguophageKnight>
 					<CorePlus_GothSanguophageSlayer>1</CorePlus_GothSanguophageSlayer>
 					<CorePlus_GothEnchanterGunner>4</CorePlus_GothEnchanterGunner>

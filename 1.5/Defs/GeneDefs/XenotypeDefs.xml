@@ -1,4 +1,40 @@
 <Defs>
+	<!--bloodbeast-->
+	<XenotypeDef>
+		<defName>CorePlus_Bloodbeast</defName>
+		<label>bloodbeast</label>
+		<description>Bloodbeasts are psychotic, bloodfeeding xenohumans who use hemogen to improve their combat abilities.</description>
+		<descriptionShort>Bloodbeasts are psychotic, bloodfeeding xenohumans who use hemogen to improve their combat abilities.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon10</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li MayRequire="oppey.eyegenes2">Eyes_Crimson</li>
+			<li MayRequire="oppey.eyegenes2">Eyes_DeepRed</li>
+			<li>Beard_BushyOnly</li>
+			<li>Bloodfeeder</li>
+			<li>Body_Standard</li>
+			<li>CorePlus_AdrenalineBlood</li>
+			<li>CorePlus_BloodMist</li>
+			<li>CorePlus_MindBlood</li>
+			<li>CorePlus_PainBlood</li>
+			<li>CorePlus_StrengthBlood</li>
+			<li>DarkVision</li>
+			<li>Eyes_Red</li>
+			<li>FireTerror</li>
+			<li>FireWeakness</li>
+			<li>Furskin</li>
+			<li>Hair_BaldOnly</li>
+			<li>Hair_DarkBlack</li>
+			<li>Hair_InkBlack</li>
+			<li>Hair_MidBlack</li>
+			<li>Hemogenic</li>
+			<li>KillThirst</li>
+			<li>Learning_Slow</li>
+			<li>Pain_Reduced</li>
+			<li>PsychicAbility_Dull</li>
+			<li>VoiceRoar</li>
+		</genes>
+	</XenotypeDef>
 	<!--succubus-->
 	<XenotypeDef>
 		<defName>CorePlus_Enchanter</defName>
@@ -10,6 +46,8 @@
 		<genes>
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_BA_LovelyDevilTail</li>
 			<li MayRequire="jintuzilamian.gene.xenocosmetic">AFU_HA_HalfDemonEar</li>
+			<li MayRequire="oppey.eyegenes2">Eyes_Crimson</li>
+			<li MayRequire="oppey.eyegenes2">Eyes_DeepRed</li>
 			<li>Bloodfeeder</li>
 			<li>Body_Standard</li>
 			<li>CorePlus_EnchanterGene</li>
