@@ -59,7 +59,7 @@
 		<defName>CorePlus_HemoWords</defName>
 		<label>hemogenic resonance</label>
 		<description>Carriers of this gene can convert hemogen into pure psychic energy, manipulating those around them.</description>
-		<iconPath>UI/Abilities/WordOfLove</iconPath>
+		<iconPath>UI/Abilities/HemoWordOfLove</iconPath>
 		<displayCategory>Hemogen</displayCategory>
 		<displayOrderInCategory>200</displayOrderInCategory>
 		<prerequisite>Hemogenic</prerequisite>
