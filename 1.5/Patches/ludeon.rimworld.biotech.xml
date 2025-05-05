@@ -1,0 +1,21 @@
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>//FactionDef[@Name="OutlanderFactionBase" or @Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<CorePlus_Enchanter>0.05</CorePlus_Enchanter>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>//PawnKindDef[defName="Mercenary_Slasher_Yttakin"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>//PawnKindDef[defName="Mercenary_Slasher_Yttakin"]</xpath>
+			<value>
+				<xenotypeSet Inherit="False">
+					<xenotypeChances>
+						<CorePlus_Bloodbeast>999</CorePlus_Bloodbeast>
+					</xenotypeChances>
+				</xenotypeSet>
+			</value>
+		</match>
+	</Operation>
+</Patch>
