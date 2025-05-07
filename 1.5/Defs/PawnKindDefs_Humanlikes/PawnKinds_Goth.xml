@@ -42,10 +42,10 @@
 		</weaponTags>
 		<weaponStuffOverride>Steel</weaponStuffOverride>
 		<apparelRequired>
-			<li>VAE_Apparel_Tunic</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Apparel_Tunic</li>
 			<li>Apparel_Pants</li>
-			<li>VAE_Footwear_Boots</li>
-			<li>VAE_Handwear_Gloves</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Footwear_Boots</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Handwear_Gloves</li>
 			<li>DevDesigner_Blood_Apparel_FullPlate</li>
 			<li>DevDesigner_Blood_Apparel_ArmetNormal</li>
 		</apparelRequired>
@@ -67,10 +67,10 @@
 		</weaponTags>
 		<weaponStuffOverride>Steel</weaponStuffOverride>
 		<apparelRequired>
-			<li>VAE_Apparel_Tunic</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Apparel_Tunic</li>
 			<li>Apparel_Pants</li>
-			<li>VAE_Footwear_Boots</li>
-			<li>VAE_Handwear_Gloves</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Footwear_Boots</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Handwear_Gloves</li>
 			<li>DevDesigner_Blood_Apparel_HeraldicHeavyHauberk</li>
 			<li>DevDesigner_Blood_Apparel_HeraldicGreatHelm</li>
 		</apparelRequired>
@@ -92,10 +92,10 @@
 		</weaponTags>
 		<weaponStuffOverride>Steel</weaponStuffOverride>
 		<apparelRequired>
-			<li>VAE_Apparel_Tunic</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Apparel_Tunic</li>
 			<li>Apparel_Pants</li>
-			<li>VAE_Footwear_Boots</li>
-			<li>VAE_Handwear_Gloves</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Footwear_Boots</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Handwear_Gloves</li>
 			<li>DevDesigner_Blood_Apparel_FullPlate</li>
 			<li>DevDesigner_Blood_Apparel_Armet</li>
 		</apparelRequired>
@@ -124,10 +124,10 @@
 		</weaponTags>
 		<weaponStuffOverride>Steel</weaponStuffOverride>
 		<apparelRequired>
-			<li>VAE_Apparel_Tunic</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Apparel_Tunic</li>
 			<li>Apparel_Pants</li>
-			<li>VAE_Footwear_Boots</li>
-			<li>VAE_Handwear_Gloves</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Footwear_Boots</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Handwear_Gloves</li>
 			<li>DevDesigner_Blood_Apparel_LordFullPlate</li>
 			<li>DevDesigner_Blood_Apparel_ArmetLord</li>
 			<li>DevDesigner_Blood_Apparel_Cape</li>
@@ -158,7 +158,7 @@
 			<li>UltratechMelee</li>
 		</weaponTags>
 		<apparelRequired>
-			<li>VAE_Apparel_Tunic</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Apparel_Tunic</li>
 			<li>Apparel_Pants</li>
 			<li>Apparel_ArmorMarinePrestige</li>
 			<li>Apparel_ArmorMarineHelmetPrestige</li>
@@ -192,7 +192,7 @@
 			<li>SpacerGun</li>
 		</weaponTags>
 		<apparelRequired>
-			<li>VAE_Apparel_Tunic</li>
+			<li MayRequire="vanillaexpanded.vappe">VAE_Apparel_Tunic</li>
 			<li>Apparel_Pants</li>
 			<li>Apparel_ArmorLocust</li>
 			<li>Apparel_ArmorHelmetRecon</li>
