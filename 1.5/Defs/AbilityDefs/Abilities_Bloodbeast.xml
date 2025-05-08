@@ -52,8 +52,8 @@
             <li Class="CompProperties_AbilityGiveHediff">
                 <compClass>CompAbilityEffect_GiveHediff</compClass>
                 <hediffDef>CorePlus_CirculateAntigen_Core</hediffDef>
-                <psychic>False</psychic>
-                <applicableToMechs>False</applicableToMechs>
+                <psychic>false</psychic>
+                <applicableToMechs>false</applicableToMechs>
             </li>
             <li Class="CompProperties_AbilityHemogenCost">
                 <hemogenCost>0.2</hemogenCost>
@@ -84,8 +84,8 @@
             <li Class="CompProperties_AbilityGiveHediff">
                 <compClass>CompAbilityEffect_GiveHediff</compClass>
                 <hediffDef>CorePlus_HemoMusculus_Core</hediffDef>
-                <psychic>False</psychic>
-                <applicableToMechs>False</applicableToMechs>
+                <psychic>false</psychic>
+                <applicableToMechs>false</applicableToMechs>
             </li>
             <li Class="CompProperties_AbilityHemogenCost">
                 <hemogenCost>0.2</hemogenCost>
@@ -116,8 +116,8 @@
             <li Class="CompProperties_AbilityGiveHediff">
                 <compClass>CompAbilityEffect_GiveHediff</compClass>
                 <hediffDef>CorePlus_CirculateStimulant_Core</hediffDef>
-                <psychic>False</psychic>
-                <applicableToMechs>False</applicableToMechs>
+                <psychic>false</psychic>
+                <applicableToMechs>false</applicableToMechs>
             </li>
             <li Class="CompProperties_AbilityHemogenCost">
                 <hemogenCost>0.2</hemogenCost>
@@ -148,8 +148,8 @@
             <li Class="CompProperties_AbilityGiveHediff">
                 <compClass>CompAbilityEffect_GiveHediff</compClass>
                 <hediffDef>CorePlus_AdrenalinSurge_Core</hediffDef>
-                <psychic>False</psychic>
-                <applicableToMechs>True</applicableToMechs>
+                <psychic>false</psychic>
+                <applicableToMechs>true</applicableToMechs>
             </li>
             <li Class="CompProperties_AbilityHemogenCost">
                 <hemogenCost>0.2</hemogenCost>

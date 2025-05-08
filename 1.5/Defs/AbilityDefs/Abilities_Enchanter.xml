@@ -21,7 +21,7 @@
             <targetParams>
                 <canTargetSelf>false</canTargetSelf>
                 <canTargetBuildings>false</canTargetBuildings>
-                <canTargetPawns>True</canTargetPawns>
+                <canTargetPawns>true</canTargetPawns>
                 <canTargetMechs>false</canTargetMechs>
                 <canTargetAnimals>false</canTargetAnimals>
             </targetParams>
@@ -59,7 +59,7 @@
             <targetParams>
                 <canTargetSelf>false</canTargetSelf>
                 <canTargetBuildings>false</canTargetBuildings>
-                <canTargetPawns>True</canTargetPawns>
+                <canTargetPawns>true</canTargetPawns>
                 <canTargetMechs>false</canTargetMechs>
                 <canTargetAnimals>false</canTargetAnimals>
             </targetParams>
@@ -69,8 +69,8 @@
             <li Class="CompProperties_AbilityGiveHediff">
                 <compClass>CompAbilityEffect_GiveHediff</compClass>
                 <hediffDef>Joyfuzz</hediffDef>
-                <onlyBrain>True</onlyBrain>
-                <applicableToMechs>False</applicableToMechs>
+                <onlyBrain>true</onlyBrain>
+                <applicableToMechs>false</applicableToMechs>
                 <goodwillImpact>-25</goodwillImpact>
             </li>
             <li Class="CompProperties_AbilitySocialInteraction">
