@@ -1,112 +1,74 @@
 <Defs>
-    <GeneDef>
+    <GeneDef Abstract="True" Name="CorePlus_BloodbeastGeneBase">
+        <biostatMet>-2</biostatMet>
+        <displayCategory>Hemogen</displayCategory>
+        <prerequisite>Hemogenic</prerequisite>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>hemo</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+    <GeneDef ParentName="CorePlus_BloodbeastGeneBase">
         <defName>CorePlus_BloodMist</defName>
         <label>red mist</label>
         <description>Carriers of this gene can spray their hemogen as a mist reducing sight into an area.</description>
         <iconPath>UI/Icons/Genes/CorePlus_BloodMist</iconPath>
-        <prerequisite>Hemogenic</prerequisite>
-        <displayCategory>Hemogen</displayCategory>
         <abilities>
             <li>CorePlus_HemogenMist</li>
         </abilities>
         <descriptionHyperlinks>
             <AbilityDef>CorePlus_HemogenMist</AbilityDef>
         </descriptionHyperlinks>
-        <biostatMet>-2</biostatMet>
-        <symbolPack>
-            <prefixSymbols>
-                <li>
-                    <symbol>hemo</symbol>
-                </li>
-            </prefixSymbols>
-        </symbolPack>
     </GeneDef>
-    <GeneDef>
+    <GeneDef ParentName="CorePlus_BloodbeastGeneBase">
         <defName>CorePlus_PainBlood</defName>
         <label>circulate antigen</label>
         <description>Carriers of this gene can convert hemogen into powerful a powerful Antigen that blocks pain and increases recovery.</description>
         <iconPath>UI/Icons/Genes/CorePlus_PainBlood</iconPath>
-        <prerequisite>Hemogenic</prerequisite>
-        <displayCategory>Hemogen</displayCategory>
         <abilities>
             <li>CorePlus_Painblock</li>
         </abilities>
         <descriptionHyperlinks>
             <AbilityDef>CorePlus_Painblock</AbilityDef>
         </descriptionHyperlinks>
-        <biostatMet>-2</biostatMet>
-        <symbolPack>
-            <prefixSymbols>
-                <li>
-                    <symbol>hemo</symbol>
-                </li>
-            </prefixSymbols>
-        </symbolPack>
     </GeneDef>
-    <GeneDef>
+    <GeneDef ParentName="CorePlus_BloodbeastGeneBase">
         <defName>CorePlus_StrengthBlood</defName>
         <label>hemo musculus</label>
         <description>Carries of this gene can turn hemogen into raw physical strength.</description>
         <iconPath>UI/Icons/Genes/CorePlus_StrengthBlood</iconPath>
-        <prerequisite>Hemogenic</prerequisite>
-        <displayCategory>Hemogen</displayCategory>
         <abilities>
             <li>CorePlus_StrengthHemogen</li>
         </abilities>
         <descriptionHyperlinks>
             <AbilityDef>CorePlus_StrengthHemogen</AbilityDef>
         </descriptionHyperlinks>
-        <biostatMet>-2</biostatMet>
-        <symbolPack>
-            <prefixSymbols>
-                <li>
-                    <symbol>hemo</symbol>
-                </li>
-            </prefixSymbols>
-        </symbolPack>
     </GeneDef>
-    <GeneDef>
+    <GeneDef ParentName="CorePlus_BloodbeastGeneBase">
         <defName>CorePlus_MindBlood</defName>
         <label>circulate stimulant</label>
         <description>Carries of this gene can convert hemogen into a mental stimulant increasing mental and psychic abilities.</description>
         <iconPath>UI/Icons/Genes/CorePlus_MindBlood</iconPath>
-        <prerequisite>Hemogenic</prerequisite>
-        <displayCategory>Hemogen</displayCategory>
         <abilities>
             <li>CorePlus_MindHemogen</li>
         </abilities>
         <descriptionHyperlinks>
             <AbilityDef>CorePlus_MindHemogen</AbilityDef>
         </descriptionHyperlinks>
-        <biostatMet>-2</biostatMet>
-        <symbolPack>
-            <prefixSymbols>
-                <li>
-                    <symbol>hemo</symbol>
-                </li>
-            </prefixSymbols>
-        </symbolPack>
     </GeneDef>
-    <GeneDef>
+    <GeneDef ParentName="CorePlus_BloodbeastGeneBase">
         <defName>CorePlus_AdrenalineBlood</defName>
         <label>circulate adrenaline</label>
         <description>Carriers of this gene can convert hemogen into powerful adrenaline.</description>
         <iconPath>UI/Icons/Genes/CorePlus_HemogenAdrenline</iconPath>
-        <prerequisite>Hemogenic</prerequisite>
-        <displayCategory>Hemogen</displayCategory>
         <abilities>
             <li>CorePlus_HemogenAdrenline</li>
         </abilities>
         <descriptionHyperlinks>
             <AbilityDef>CorePlus_HemogenAdrenline</AbilityDef>
         </descriptionHyperlinks>
-        <biostatMet>-2</biostatMet>
-        <symbolPack>
-            <prefixSymbols>
-                <li>
-                    <symbol>hemo</symbol>
-                </li>
-            </prefixSymbols>
-        </symbolPack>
     </GeneDef>
 </Defs>
