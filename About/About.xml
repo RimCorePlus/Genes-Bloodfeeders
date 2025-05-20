@@ -2,14 +2,10 @@
 	<packageId>coreplus.genes.bloodfeeders</packageId>
 	<name>[CorePlus] Genes - Bloodfeeders</name>
 	<author>boomer</author>
-	<description>Bloodfeeder faction raids with sanguinary animals:\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=2923829125</description>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
-	<modVersion />
-	<modIconPath IgnoreIfNoMatchingField="True" />
 	<url>https://github.com/RimCorePlus/Genes-Bloodfeeders</url>
-	<descriptionsByVersion />
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Royalty</packageId>
@@ -20,10 +16,6 @@
 			<displayName>Biotech</displayName>
 		</li>
 	</modDependencies>
-	<modDependenciesByVersion />
-	<loadBefore />
-	<loadBeforeByVersion />
-	<forceLoadBefore />
 	<loadAfter>
 		<li>boomer.debloat</li>
 		<li>coreplus.genes</li>
@@ -32,8 +24,4 @@
 		<li>jintuzilamian.gene.xenocosmetic</li>
 		<li>vanillaexpanded.vappe</li>
 	</loadAfter>
-	<loadAfterByVersion />
-	<forceLoadAfter />
-	<incompatibleWith />
-	<incompatibleWithByVersion />
 </ModMetaData>
