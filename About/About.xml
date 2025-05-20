@@ -6,9 +6,10 @@
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
-	<modVersion>1.5.0</modVersion>
+	<modVersion />
 	<modIconPath IgnoreIfNoMatchingField="True" />
 	<url>https://github.com/RimCorePlus/Genes-Bloodfeeders</url>
+	<descriptionsByVersion />
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Royalty</packageId>
@@ -19,14 +20,20 @@
 			<displayName>Biotech</displayName>
 		</li>
 	</modDependencies>
+	<modDependenciesByVersion />
 	<loadBefore />
+	<loadBeforeByVersion />
+	<forceLoadBefore />
 	<loadAfter>
 		<li>boomer.debloat</li>
 		<li>coreplus.genes</li>
-		<li>coreplus.rebalance</li>
+		<li>boomer.rebalance</li>
 		<li>dankpyon.medieval.overhaul</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
 		<li>vanillaexpanded.vappe</li>
 	</loadAfter>
+	<loadAfterByVersion />
+	<forceLoadAfter />
 	<incompatibleWith />
+	<incompatibleWithByVersion />
 </ModMetaData>
