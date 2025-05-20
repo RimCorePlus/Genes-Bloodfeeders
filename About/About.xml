@@ -18,11 +18,6 @@
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 			<displayName>Biotech</displayName>
 		</li>
-		<li>
-			<packageId>Finch.Blood</packageId>
-			<displayName>ↁ House Sanguin [Continued]</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3292190756</steamWorkshopUrl>
-		</li>
 	</modDependencies>
 	<loadBefore />
 	<loadAfter>
@@ -30,9 +25,7 @@
 		<li>coreplus.genes</li>
 		<li>coreplus.rebalance</li>
 		<li>dankpyon.medieval.overhaul</li>
-		<li>Finch.Blood</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
-		<li>pphhyy.sanguinaryanimals</li>
 		<li>vanillaexpanded.vappe</li>
 	</loadAfter>
 	<incompatibleWith />

@@ -1,14 +1,9 @@
 <Defs>
-	<PawnKindDef Name="CorePlus_GothBase" ParentName="OutlanderBase" Abstract="True">
-		<race>Human</race>
+	<PawnKindDef ParentName="MercenaryGunnerBase">
+		<defName>CorePlus_GunnerGoth</defName>
+		<label>thrall gunner</label>
+		<initialResistanceRange>6~10</initialResistanceRange>
 		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
-		<chemicalAddictionChance>0.05</chemicalAddictionChance>
-		<backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
-		<invNutrition>2.55</invNutrition>
-		<techHediffsMoney>200~1200</techHediffsMoney>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
 		<specificApparelRequirements>
 			<li>
 				<colorGenerator Class="ColorGenerator_Options">
@@ -20,200 +15,149 @@
 				</colorGenerator>
 			</li>
 		</specificApparelRequirements>
-		<initialResistanceRange>8~16</initialResistanceRange>
-		<initialWillRange>4~8</initialWillRange>
-		<gearHealthRange>0.7~1</gearHealthRange>
-		<itemQuality>Normal</itemQuality>
-		<minApparelQuality>Normal</minApparelQuality>
-		<forceWeaponQuality>Normal</forceWeaponQuality>
-		<weaponMoney>1000~1000</weaponMoney>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
 	</PawnKindDef>
-	<PawnKindDef ParentName="CorePlus_GothBase">
-		<defName>CorePlus_GothThrall</defName>
-		<label>thrall</label>
-		<combatPower>65</combatPower>
-		<canBeSapper>true</canBeSapper>
-		<isGoodBreacher>true</isGoodBreacher>
-		<weaponTags>
-			<li>DevDesigner_Blood_MeleeWeapon_Sword</li>
-		</weaponTags>
-		<weaponStuffOverride>Steel</weaponStuffOverride>
-		<apparelRequired>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Apparel_Tunic</li>
-			<li>Apparel_Pants</li>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Footwear_Boots</li>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Handwear_Gloves</li>
-			<li>DevDesigner_Blood_Apparel_FullPlate</li>
-			<li>DevDesigner_Blood_Apparel_ArmetNormal</li>
-		</apparelRequired>
-		<skills>
-			<li>
-				<skill>Melee</skill>
-				<range>6~12</range>
-			</li>
-		</skills>
-	</PawnKindDef>
-	<PawnKindDef ParentName="CorePlus_GothBase">
-		<defName>CorePlus_GothThrallAlt</defName>
-		<label>thrall</label>
-		<combatPower>65</combatPower>
-		<canBeSapper>true</canBeSapper>
-		<isGoodBreacher>true</isGoodBreacher>
-		<weaponTags>
-			<li>DevDesigner_Blood_MeleeWeapon_PikeStandard</li>
-		</weaponTags>
-		<weaponStuffOverride>Steel</weaponStuffOverride>
-		<apparelRequired>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Apparel_Tunic</li>
-			<li>Apparel_Pants</li>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Footwear_Boots</li>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Handwear_Gloves</li>
-			<li>DevDesigner_Blood_Apparel_HeraldicHeavyHauberk</li>
-			<li>DevDesigner_Blood_Apparel_HeraldicGreatHelm</li>
-		</apparelRequired>
-		<skills>
-			<li>
-				<skill>Melee</skill>
-				<range>6~12</range>
-			</li>
-		</skills>
-	</PawnKindDef>
-	<PawnKindDef ParentName="CorePlus_GothBase">
-		<defName>CorePlus_GothBloodbeastKnight</defName>
-		<label>bloodbeast knight</label>
-		<combatPower>80</combatPower>
-		<canBeSapper>true</canBeSapper>
-		<isGoodBreacher>true</isGoodBreacher>
-		<weaponTags>
-			<li>DevDesigner_Blood_MeleeWeapon_Longsword</li>
-		</weaponTags>
-		<weaponStuffOverride>Steel</weaponStuffOverride>
-		<apparelRequired>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Apparel_Tunic</li>
-			<li>Apparel_Pants</li>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Footwear_Boots</li>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Handwear_Gloves</li>
-			<li>DevDesigner_Blood_Apparel_FullPlate</li>
-			<li>DevDesigner_Blood_Apparel_Armet</li>
-		</apparelRequired>
-		<xenotypeSet>
-			<xenotypeChances>
-				<CorePlus_Bloodbeast>999</CorePlus_Bloodbeast>
-			</xenotypeChances>
-		</xenotypeSet>
-		<initialResistanceRange>18~30</initialResistanceRange>
-		<initialWillRange>10~16</initialWillRange>
-		<skills>
-			<li>
-				<skill>Melee</skill>
-				<range>8~14</range>
-			</li>
-		</skills>
-	</PawnKindDef>
-	<PawnKindDef ParentName="CorePlus_GothBase">
-		<defName>CorePlus_GothSanguophageKnight</defName>
-		<label>sanguophage knight</label>
-		<combatPower>100</combatPower>
-		<canBeSapper>true</canBeSapper>
-		<isGoodBreacher>true</isGoodBreacher>
-		<weaponTags>
-			<li>DevDesigner_Blood_MeleeWeapon_ExecutionerGreatsword</li>
-		</weaponTags>
-		<weaponStuffOverride>Steel</weaponStuffOverride>
-		<apparelRequired>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Apparel_Tunic</li>
-			<li>Apparel_Pants</li>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Footwear_Boots</li>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Handwear_Gloves</li>
-			<li>DevDesigner_Blood_Apparel_LordFullPlate</li>
-			<li>DevDesigner_Blood_Apparel_ArmetLord</li>
-			<li>DevDesigner_Blood_Apparel_Cape</li>
-		</apparelRequired>
-		<useFactionXenotypes>false</useFactionXenotypes>
-		<xenotypeSet>
-			<xenotypeChances>
-				<Sanguophage>999</Sanguophage>
-			</xenotypeChances>
-		</xenotypeSet>
-		<initialResistanceRange>20~32</initialResistanceRange>
-		<initialWillRange>12~18</initialWillRange>
-		<skills>
-			<li>
-				<skill>Melee</skill>
-				<range>8~16</range>
-			</li>
-		</skills>
-	</PawnKindDef>
-	<PawnKindDef ParentName="CorePlus_GothBase">
-		<defName>CorePlus_GothSanguophageSlayer</defName>
-		<label>sanguophage slayer</label>
-		<combatPower>100</combatPower>
-		<canBeSapper>true</canBeSapper>
-		<isGoodBreacher>true</isGoodBreacher>
-		<weaponMoney>2500~5000</weaponMoney>
-		<weaponTags>
-			<li>UltratechMelee</li>
-		</weaponTags>
-		<apparelRequired>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Apparel_Tunic</li>
-			<li>Apparel_Pants</li>
-			<li>Apparel_ArmorMarinePrestige</li>
-			<li>Apparel_ArmorMarineHelmetPrestige</li>
-			<li>DevDesigner_Blood_Apparel_Cape</li>
-		</apparelRequired>
-		<useFactionXenotypes>false</useFactionXenotypes>
-		<xenotypeSet>
-			<xenotypeChances>
-				<Sanguophage>999</Sanguophage>
-			</xenotypeChances>
-		</xenotypeSet>
-		<initialResistanceRange>20~32</initialResistanceRange>
-		<initialWillRange>12~18</initialWillRange>
-		<biocodeWeaponChance>1</biocodeWeaponChance>
-		<skills>
-			<li>
-				<skill>Melee</skill>
-				<range>8~16</range>
-			</li>
-		</skills>
-	</PawnKindDef>
-	<PawnKindDef ParentName="CorePlus_GothBase">
-		<defName>CorePlus_GothEnchanterGunner</defName>
+	<PawnKindDef ParentName="MercenaryGunnerBase">
+		<defName>CorePlus_GunnerEnchanter</defName>
 		<label>enchanter gunner</label>
-		<combatPower>100</combatPower>
-		<canBeSapper>true</canBeSapper>
-		<isGoodBreacher>true</isGoodBreacher>
-		<weaponMoney>355~5000</weaponMoney>
-		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
-			<li>SpacerGun</li>
-		</weaponTags>
-		<apparelRequired>
-			<li MayRequire="vanillaexpanded.vappe">VAE_Apparel_Tunic</li>
-			<li>Apparel_Pants</li>
-			<li>Apparel_ArmorLocust</li>
-			<li>Apparel_ArmorHelmetRecon</li>
-		</apparelRequired>
-		<useFactionXenotypes>false</useFactionXenotypes>
+		<initialResistanceRange>6~10</initialResistanceRange>
+		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<specificApparelRequirements>
+			<li>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<only>(58, 58, 58)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
 		<xenotypeSet>
 			<xenotypeChances>
 				<CorePlus_Enchanter>999</CorePlus_Enchanter>
 			</xenotypeChances>
 		</xenotypeSet>
-		<initialResistanceRange>16~24</initialResistanceRange>
-		<initialWillRange>8~14</initialWillRange>
-		<biocodeWeaponChance>0.8</biocodeWeaponChance>
-		<skills>
+	</PawnKindDef>
+	<PawnKindDef ParentName="MercenarySlasherBase">
+		<defName>CorePlus_BloodbeastSlasher</defName>
+		<label>bloodbeast slasher</label>
+		<initialResistanceRange>10~16</initialResistanceRange>
+		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<specificApparelRequirements>
 			<li>
-				<skill>Shooting</skill>
-				<range>8~16</range>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<only>(58, 58, 58)</only>
+						</li>
+					</options>
+				</colorGenerator>
 			</li>
-		</skills>
-		<disallowedTraits>
-			<li>Brawler</li>
-		</disallowedTraits>
+		</specificApparelRequirements>
+		<xenotypeSet>
+			<xenotypeChances>
+				<CorePlus_Bloodbeast>999</CorePlus_Bloodbeast>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	<PawnKindDef ParentName="MercenaryEliteBase">
+		<defName>CorePlus_EliteGoth</defName>
+		<label>elite thrall</label>
+		<initialResistanceRange>15~23</initialResistanceRange>
+		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<specificApparelRequirements>
+			<li>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<only>(58, 58, 58)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+	<PawnKindDef ParentName="GrenadierBase">
+		<defName>CorePlus_GrenadierEnchanter</defName>
+		<label>enchanter grenadier</label>
+		<combatPower>55</combatPower>
+		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<specificApparelRequirements>
+			<li>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<only>(58, 58, 58)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+		<weaponTags>
+			<li>GrenadeDestructive</li>
+		</weaponTags>
+		<xenotypeSet>
+			<xenotypeChances>
+				<CorePlus_Enchanter>999</CorePlus_Enchanter>
+			</xenotypeChances>
+		</xenotypeSet>
+		<initialResistanceRange>15~24</initialResistanceRange>
+	</PawnKindDef>
+	<PawnKindDef ParentName="MercenaryMidTierBase">
+		<defName>CorePlus_HeavyBloodbeast</defName>
+		<label>heavy bloodbeast</label>
+		<combatPower>140</combatPower>
+		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<gearHealthRange>0.7~3.2</gearHealthRange>
+		<specificApparelRequirements>
+			<li>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<only>(58, 58, 58)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+		<apparelMoney>200~350</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<weaponMoney>1200~1200</weaponMoney>
+		<weaponTags>
+			<li>GunHeavy</li>
+			<li>GunSingleUse</li>
+			<li>Flamethrower</li>
+		</weaponTags>
+		<initialResistanceRange>14~23</initialResistanceRange>
+		<xenotypeSet>
+			<xenotypeChances>
+				<CorePlus_Bloodbeast>999</CorePlus_Bloodbeast>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+	<PawnKindDef ParentName="MercenaryEliteTierBase">
+		<defName>CorePlus_SanguophageBoss</defName>
+		<label>sanguophage boss</label>
+		<labelPlural>sanguophage bosses</labelPlural>
+		<factionLeader>true</factionLeader>
+		<canBeSapper>true</canBeSapper>
+		<initialResistanceRange>17~27</initialResistanceRange>
+		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<specificApparelRequirements>
+			<li>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<only>(58, 58, 58)</only>
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Sanguophage>999</Sanguophage>
+			</xenotypeChances>
+		</xenotypeSet>
 	</PawnKindDef>
 </Defs>

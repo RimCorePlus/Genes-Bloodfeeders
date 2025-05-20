@@ -16,8 +16,7 @@
 		<leaderTitle>lord</leaderTitle>
 		<leaderTitleFemale>lady</leaderTitleFemale>
 		<fixedLeaderKinds>
-			<li>CorePlus_GothSanguophageKnight</li>
-			<li>CorePlus_GothSanguophageSlayer</li>
+			<li>CorePlus_SanguophageBoss</li>
 		</fixedLeaderKinds>
 		<techLevel>Spacer</techLevel>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -93,41 +92,25 @@
 				<!-- Normal fights, standard mix -->
 				<kindDef>Combat</kindDef>
 				<options>
-					<CorePlus_GothThrall>25</CorePlus_GothThrall>
-					<CorePlus_GothThrallAlt>5</CorePlus_GothThrallAlt>
-					<pphhyy_Vargulf MayRequire="pphhyy.sanguinaryanimals">15</pphhyy_Vargulf>
-					<CorePlus_GothBloodbeastKnight>8</CorePlus_GothBloodbeastKnight>
-					<CorePlus_GothSanguophageKnight>2</CorePlus_GothSanguophageKnight>
-					<CorePlus_GothSanguophageSlayer>1</CorePlus_GothSanguophageSlayer>
-					<CorePlus_GothEnchanterGunner>4</CorePlus_GothEnchanterGunner>
-				</options>
-			</li>
-			<!-- Raid Animal -->
-			<li MayRequire="pphhyy.sanguinaryanimals">
-				<kindDef>Combat</kindDef>
-				<disallowedStrategies>
-					<li>StageThenAttack</li>
-					<li>Siege</li>
-					<li>ImmediateAttackSappers</li>
-					<li>ImmediateAttackBreaching</li>
-					<li>ImmediateAttackBreachingSmart</li>
-				</disallowedStrategies>
-				<options>
-					<CorePlus_GothThrall>25</CorePlus_GothThrall>
-					<CorePlus_GothSanguophageKnight>2</CorePlus_GothSanguophageKnight>
-					<pphhyy_BloodScarab MayRequire="Ludeon.RimWorld.Biotech">25</pphhyy_BloodScarab>
-					<pphhyy_Vargulf>15</pphhyy_Vargulf>
+					<CorePlus_GunnerGoth>25</CorePlus_GunnerGoth>
+					<CorePlus_EliteGoth>10</CorePlus_EliteGoth>
+					<CorePlus_GunnerEnchanter>5</CorePlus_GunnerEnchanter>
+					<CorePlus_BloodbeastSlasher>5</CorePlus_BloodbeastSlasher>
+					<CorePlus_GrenadierEnchanter>3</CorePlus_GrenadierEnchanter>
+					<CorePlus_HeavyBloodbeast>2</CorePlus_HeavyBloodbeast>
+					<CorePlus_SanguophageBoss>1</CorePlus_SanguophageBoss>
 				</options>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<CorePlus_GothThrall>25</CorePlus_GothThrall>
-					<CorePlus_GothThrallAlt>5</CorePlus_GothThrallAlt>
-					<CorePlus_GothBloodbeastKnight>8</CorePlus_GothBloodbeastKnight>
-					<CorePlus_GothSanguophageKnight>2</CorePlus_GothSanguophageKnight>
-					<CorePlus_GothSanguophageSlayer>1</CorePlus_GothSanguophageSlayer>
-					<CorePlus_GothEnchanterGunner>4</CorePlus_GothEnchanterGunner>
+					<CorePlus_GunnerGoth>25</CorePlus_GunnerGoth>
+					<CorePlus_EliteGoth>10</CorePlus_EliteGoth>
+					<CorePlus_GunnerEnchanter>5</CorePlus_GunnerEnchanter>
+					<CorePlus_BloodbeastSlasher>5</CorePlus_BloodbeastSlasher>
+					<CorePlus_GrenadierEnchanter>3</CorePlus_GrenadierEnchanter>
+					<CorePlus_HeavyBloodbeast>2</CorePlus_HeavyBloodbeast>
+					<CorePlus_SanguophageBoss>1</CorePlus_SanguophageBoss>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
