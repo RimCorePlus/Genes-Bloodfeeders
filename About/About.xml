@@ -17,7 +17,6 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
-		<li>boomer.debloat</li>
 		<li>coreplus.genes</li>
 		<li>boomer.rebalance</li>
 		<li>dankpyon.medieval.overhaul</li>
