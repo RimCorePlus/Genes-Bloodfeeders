@@ -1,6 +1,6 @@
 <Defs>
 	<FactionDef ParentName="FactionBase">
-		<defName>CorePlus_BloodfeederClan</defName>
+		<defName>RCP_BloodfeederClan</defName>
 		<label>bloodfeeder clan</label>
 		<description>An organized coalition of bloodfeeders and their thralls. They are not interested in diplomacy or trade.\n\nBloodfeeders attack with a blend of spacer tech and medieval arms.</description>
 		<factionIconPath>World/WorldObjects/Expanding/BloodfeederClan</factionIconPath>
@@ -16,7 +16,7 @@
 		<leaderTitle>lord</leaderTitle>
 		<leaderTitleFemale>lady</leaderTitleFemale>
 		<fixedLeaderKinds>
-			<li>CorePlus_SanguophageBoss</li>
+			<li>RCP_SanguophageBoss</li>
 		</fixedLeaderKinds>
 		<techLevel>Spacer</techLevel>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -48,8 +48,8 @@
 		</structureMemeWeights>
 		<xenotypeSet>
 			<xenotypeChances>
-				<CorePlus_DarkElf MayRequire="coreplus.genes.elves">0.1</CorePlus_DarkElf>
-				<CorePlus_Enchanter>0.05</CorePlus_Enchanter>
+				<RCP_DarkElf MayRequire="RCP.Genes.Elves">0.1</RCP_DarkElf>
+				<RCP_Enchanter>0.05</RCP_Enchanter>
 			</xenotypeChances>
 		</xenotypeSet>
 		<modExtensions>
@@ -92,25 +92,25 @@
 				<!-- Normal fights, standard mix -->
 				<kindDef>Combat</kindDef>
 				<options>
-					<CorePlus_GunnerGoth>25</CorePlus_GunnerGoth>
-					<CorePlus_EliteGoth>10</CorePlus_EliteGoth>
-					<CorePlus_GunnerEnchanter>5</CorePlus_GunnerEnchanter>
-					<CorePlus_BloodbeastSlasher>5</CorePlus_BloodbeastSlasher>
-					<CorePlus_GrenadierEnchanter>3</CorePlus_GrenadierEnchanter>
-					<CorePlus_HeavyBloodbeast>2</CorePlus_HeavyBloodbeast>
-					<CorePlus_SanguophageBoss>1</CorePlus_SanguophageBoss>
+					<RCP_GunnerGoth>25</RCP_GunnerGoth>
+					<RCP_EliteGoth>10</RCP_EliteGoth>
+					<RCP_GunnerEnchanter>5</RCP_GunnerEnchanter>
+					<RCP_BloodbeastSlasher>5</RCP_BloodbeastSlasher>
+					<RCP_GrenadierEnchanter>3</RCP_GrenadierEnchanter>
+					<RCP_HeavyBloodbeast>2</RCP_HeavyBloodbeast>
+					<RCP_SanguophageBoss>1</RCP_SanguophageBoss>
 				</options>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<CorePlus_GunnerGoth>25</CorePlus_GunnerGoth>
-					<CorePlus_EliteGoth>10</CorePlus_EliteGoth>
-					<CorePlus_GunnerEnchanter>5</CorePlus_GunnerEnchanter>
-					<CorePlus_BloodbeastSlasher>5</CorePlus_BloodbeastSlasher>
-					<CorePlus_GrenadierEnchanter>3</CorePlus_GrenadierEnchanter>
-					<CorePlus_HeavyBloodbeast>2</CorePlus_HeavyBloodbeast>
-					<CorePlus_SanguophageBoss>1</CorePlus_SanguophageBoss>
+					<RCP_GunnerGoth>25</RCP_GunnerGoth>
+					<RCP_EliteGoth>10</RCP_EliteGoth>
+					<RCP_GunnerEnchanter>5</RCP_GunnerEnchanter>
+					<RCP_BloodbeastSlasher>5</RCP_BloodbeastSlasher>
+					<RCP_GrenadierEnchanter>3</RCP_GrenadierEnchanter>
+					<RCP_HeavyBloodbeast>2</RCP_HeavyBloodbeast>
+					<RCP_SanguophageBoss>1</RCP_SanguophageBoss>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">

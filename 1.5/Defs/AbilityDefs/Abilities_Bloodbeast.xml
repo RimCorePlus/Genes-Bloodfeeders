@@ -1,5 +1,5 @@
 <Defs>
-    <AbilityDef Abstract="True" Name="CorePlus_HemoAbilitySelfBase">
+    <AbilityDef Abstract="True" Name="RCP_HemoAbilitySelfBase">
         <aiCanUse>false</aiCanUse>
         <comps>
             <li Class="CompProperties_AbilityHemogenCost">
@@ -21,11 +21,11 @@
             </targetParams>
         </verbProperties>
     </AbilityDef>
-    <AbilityDef ParentName="CorePlus_HemoAbilitySelfBase">
-        <defName>CorePlus_HemogenMist</defName>
+    <AbilityDef ParentName="RCP_HemoAbilitySelfBase">
+        <defName>RCP_HemogenMist</defName>
         <label>hemo mist</label>
         <description>Release hemogen as a mist. Mist reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely.</description>
-        <iconPath>UI/Icons/Genes/CorePlus_BloodMist</iconPath>
+        <iconPath>UI/Icons/Genes/RCP_BloodMist</iconPath>
         <cooldownTicksRange>1</cooldownTicksRange>
         <aiCanUse>true</aiCanUse>
         <verbProperties>
@@ -42,57 +42,57 @@
             </li>
         </comps>
     </AbilityDef>
-    <AbilityDef ParentName="CorePlus_HemoAbilitySelfBase">
-        <defName>CorePlus_Painblock</defName>
+    <AbilityDef ParentName="RCP_HemoAbilitySelfBase">
+        <defName>RCP_Painblock</defName>
         <label>hemo antigen</label>
         <description>Convert hemogen into a powerful antigen that blocks pain and speeds up recovery.</description>
-        <iconPath>UI/Icons/Genes/CorePlus_PainBlood</iconPath>
+        <iconPath>UI/Icons/Genes/RCP_PainBlood</iconPath>
         <comps>
             <li Class="CompProperties_AbilityGiveHediff">
                 <compClass>CompAbilityEffect_GiveHediff</compClass>
-                <hediffDef>CorePlus_CirculateAntigen_Core</hediffDef>
+                <hediffDef>RCP_CirculateAntigen_Core</hediffDef>
                 <psychic>false</psychic>
                 <applicableToMechs>false</applicableToMechs>
             </li>
         </comps>
     </AbilityDef>
-    <AbilityDef ParentName="CorePlus_HemoAbilitySelfBase">
-        <defName>CorePlus_StrengthHemogen</defName>
+    <AbilityDef ParentName="RCP_HemoAbilitySelfBase">
+        <defName>RCP_StrengthHemogen</defName>
         <label>hemo strength</label>
         <description>Turn hemogen into raw physical strength.</description>
-        <iconPath>UI/Icons/Genes/CorePlus_StrengthBlood</iconPath>
+        <iconPath>UI/Icons/Genes/RCP_StrengthBlood</iconPath>
         <comps>
             <li Class="CompProperties_AbilityGiveHediff">
                 <compClass>CompAbilityEffect_GiveHediff</compClass>
-                <hediffDef>CorePlus_HemoMusculus_Core</hediffDef>
+                <hediffDef>RCP_HemoMusculus_Core</hediffDef>
                 <psychic>false</psychic>
                 <applicableToMechs>false</applicableToMechs>
             </li>
         </comps>
     </AbilityDef>
-    <AbilityDef ParentName="CorePlus_HemoAbilitySelfBase">
-        <defName>CorePlus_MindHemogen</defName>
+    <AbilityDef ParentName="RCP_HemoAbilitySelfBase">
+        <defName>RCP_MindHemogen</defName>
         <label>hemo stim</label>
         <description>Convert hemogen into a mental stimulant increasing mental and psychic abilities.</description>
-        <iconPath>UI/Icons/Genes/CorePlus_MindBlood</iconPath>
+        <iconPath>UI/Icons/Genes/RCP_MindBlood</iconPath>
         <comps>
             <li Class="CompProperties_AbilityGiveHediff">
                 <compClass>CompAbilityEffect_GiveHediff</compClass>
-                <hediffDef>CorePlus_CirculateStimulant_Core</hediffDef>
+                <hediffDef>RCP_CirculateStimulant_Core</hediffDef>
                 <psychic>false</psychic>
                 <applicableToMechs>false</applicableToMechs>
             </li>
         </comps>
     </AbilityDef>
-    <AbilityDef ParentName="CorePlus_HemoAbilitySelfBase">
-        <defName>CorePlus_HemogenAdrenline</defName>
+    <AbilityDef ParentName="RCP_HemoAbilitySelfBase">
+        <defName>RCP_HemogenAdrenline</defName>
         <label>hemo surge</label>
         <description>Converts hemogen into adrenaline.</description>
-        <iconPath>UI/Icons/Genes/CorePlus_HemogenAdrenline</iconPath>
+        <iconPath>UI/Icons/Genes/RCP_HemogenAdrenline</iconPath>
         <comps>
             <li Class="CompProperties_AbilityGiveHediff">
                 <compClass>CompAbilityEffect_GiveHediff</compClass>
-                <hediffDef>CorePlus_AdrenalinSurge_Core</hediffDef>
+                <hediffDef>RCP_AdrenalinSurge_Core</hediffDef>
                 <psychic>false</psychic>
                 <applicableToMechs>true</applicableToMechs>
             </li>

@@ -2,7 +2,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>//FactionDef[@Name="OutlanderFactionBase" or @Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
 		<value>
-			<CorePlus_Enchanter>0.05</CorePlus_Enchanter>
+			<RCP_Enchanter>0.05</RCP_Enchanter>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -12,7 +12,7 @@
 			<value>
 				<xenotypeSet Inherit="False">
 					<xenotypeChances>
-						<CorePlus_Bloodbeast>999</CorePlus_Bloodbeast>
+						<RCP_Bloodbeast>999</RCP_Bloodbeast>
 					</xenotypeChances>
 				</xenotypeSet>
 			</value>

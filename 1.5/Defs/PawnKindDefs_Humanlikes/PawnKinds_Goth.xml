@@ -1,9 +1,9 @@
 <Defs>
 	<PawnKindDef ParentName="MercenaryGunnerBase">
-		<defName>CorePlus_GunnerGoth</defName>
+		<defName>RCP_GunnerGoth</defName>
 		<label>thrall gunner</label>
 		<initialResistanceRange>6~10</initialResistanceRange>
-		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<defaultFactionType>RCP_BloodfeederClan</defaultFactionType>
 		<specificApparelRequirements>
 			<li>
 				<colorGenerator Class="ColorGenerator_Options">
@@ -17,10 +17,10 @@
 		</specificApparelRequirements>
 	</PawnKindDef>
 	<PawnKindDef ParentName="MercenaryGunnerBase">
-		<defName>CorePlus_GunnerEnchanter</defName>
+		<defName>RCP_GunnerEnchanter</defName>
 		<label>enchanter gunner</label>
 		<initialResistanceRange>6~10</initialResistanceRange>
-		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<defaultFactionType>RCP_BloodfeederClan</defaultFactionType>
 		<specificApparelRequirements>
 			<li>
 				<colorGenerator Class="ColorGenerator_Options">
@@ -34,15 +34,15 @@
 		</specificApparelRequirements>
 		<xenotypeSet>
 			<xenotypeChances>
-				<CorePlus_Enchanter>999</CorePlus_Enchanter>
+				<RCP_Enchanter>999</RCP_Enchanter>
 			</xenotypeChances>
 		</xenotypeSet>
 	</PawnKindDef>
 	<PawnKindDef ParentName="MercenarySlasherBase">
-		<defName>CorePlus_BloodbeastSlasher</defName>
+		<defName>RCP_BloodbeastSlasher</defName>
 		<label>bloodbeast slasher</label>
 		<initialResistanceRange>10~16</initialResistanceRange>
-		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<defaultFactionType>RCP_BloodfeederClan</defaultFactionType>
 		<specificApparelRequirements>
 			<li>
 				<colorGenerator Class="ColorGenerator_Options">
@@ -56,15 +56,15 @@
 		</specificApparelRequirements>
 		<xenotypeSet>
 			<xenotypeChances>
-				<CorePlus_Bloodbeast>999</CorePlus_Bloodbeast>
+				<RCP_Bloodbeast>999</RCP_Bloodbeast>
 			</xenotypeChances>
 		</xenotypeSet>
 	</PawnKindDef>
 	<PawnKindDef ParentName="MercenaryEliteBase">
-		<defName>CorePlus_EliteGoth</defName>
+		<defName>RCP_EliteGoth</defName>
 		<label>elite thrall</label>
 		<initialResistanceRange>15~23</initialResistanceRange>
-		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<defaultFactionType>RCP_BloodfeederClan</defaultFactionType>
 		<specificApparelRequirements>
 			<li>
 				<colorGenerator Class="ColorGenerator_Options">
@@ -78,10 +78,10 @@
 		</specificApparelRequirements>
 	</PawnKindDef>
 	<PawnKindDef ParentName="GrenadierBase">
-		<defName>CorePlus_GrenadierEnchanter</defName>
+		<defName>RCP_GrenadierEnchanter</defName>
 		<label>enchanter grenadier</label>
 		<combatPower>55</combatPower>
-		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<defaultFactionType>RCP_BloodfeederClan</defaultFactionType>
 		<specificApparelRequirements>
 			<li>
 				<colorGenerator Class="ColorGenerator_Options">
@@ -98,16 +98,16 @@
 		</weaponTags>
 		<xenotypeSet>
 			<xenotypeChances>
-				<CorePlus_Enchanter>999</CorePlus_Enchanter>
+				<RCP_Enchanter>999</RCP_Enchanter>
 			</xenotypeChances>
 		</xenotypeSet>
 		<initialResistanceRange>15~24</initialResistanceRange>
 	</PawnKindDef>
 	<PawnKindDef ParentName="MercenaryMidTierBase">
-		<defName>CorePlus_HeavyBloodbeast</defName>
+		<defName>RCP_HeavyBloodbeast</defName>
 		<label>heavy bloodbeast</label>
 		<combatPower>140</combatPower>
-		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<defaultFactionType>RCP_BloodfeederClan</defaultFactionType>
 		<gearHealthRange>0.7~3.2</gearHealthRange>
 		<specificApparelRequirements>
 			<li>
@@ -131,18 +131,18 @@
 		<initialResistanceRange>14~23</initialResistanceRange>
 		<xenotypeSet>
 			<xenotypeChances>
-				<CorePlus_Bloodbeast>999</CorePlus_Bloodbeast>
+				<RCP_Bloodbeast>999</RCP_Bloodbeast>
 			</xenotypeChances>
 		</xenotypeSet>
 	</PawnKindDef>
 	<PawnKindDef ParentName="MercenaryEliteTierBase">
-		<defName>CorePlus_SanguophageBoss</defName>
+		<defName>RCP_SanguophageBoss</defName>
 		<label>sanguophage boss</label>
 		<labelPlural>sanguophage bosses</labelPlural>
 		<factionLeader>true</factionLeader>
 		<canBeSapper>true</canBeSapper>
 		<initialResistanceRange>17~27</initialResistanceRange>
-		<defaultFactionType>CorePlus_BloodfeederClan</defaultFactionType>
+		<defaultFactionType>RCP_BloodfeederClan</defaultFactionType>
 		<specificApparelRequirements>
 			<li>
 				<colorGenerator Class="ColorGenerator_Options">

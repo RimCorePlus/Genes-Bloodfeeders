@@ -1,5 +1,5 @@
 <Defs>
-    <GeneDef Abstract="True" Name="CorePlus_BloodbeastGeneBase">
+    <GeneDef Abstract="True" Name="RCP_BloodbeastGeneBase">
         <biostatMet>-2</biostatMet>
         <displayCategory>Hemogen</displayCategory>
         <prerequisite>Hemogenic</prerequisite>
@@ -11,64 +11,64 @@
             </prefixSymbols>
         </symbolPack>
     </GeneDef>
-    <GeneDef ParentName="CorePlus_BloodbeastGeneBase">
-        <defName>CorePlus_BloodMist</defName>
+    <GeneDef ParentName="RCP_BloodbeastGeneBase">
+        <defName>RCP_BloodMist</defName>
         <label>red mist</label>
         <description>Carriers of this gene can spray their hemogen as a mist reducing sight into an area.</description>
-        <iconPath>UI/Icons/Genes/CorePlus_BloodMist</iconPath>
+        <iconPath>UI/Icons/Genes/RCP_BloodMist</iconPath>
         <abilities>
-            <li>CorePlus_HemogenMist</li>
+            <li>RCP_HemogenMist</li>
         </abilities>
         <descriptionHyperlinks>
-            <AbilityDef>CorePlus_HemogenMist</AbilityDef>
+            <AbilityDef>RCP_HemogenMist</AbilityDef>
         </descriptionHyperlinks>
     </GeneDef>
-    <GeneDef ParentName="CorePlus_BloodbeastGeneBase">
-        <defName>CorePlus_PainBlood</defName>
+    <GeneDef ParentName="RCP_BloodbeastGeneBase">
+        <defName>RCP_PainBlood</defName>
         <label>circulate antigen</label>
         <description>Carriers of this gene can convert hemogen into powerful a powerful Antigen that blocks pain and increases recovery.</description>
-        <iconPath>UI/Icons/Genes/CorePlus_PainBlood</iconPath>
+        <iconPath>UI/Icons/Genes/RCP_PainBlood</iconPath>
         <abilities>
-            <li>CorePlus_Painblock</li>
+            <li>RCP_Painblock</li>
         </abilities>
         <descriptionHyperlinks>
-            <AbilityDef>CorePlus_Painblock</AbilityDef>
+            <AbilityDef>RCP_Painblock</AbilityDef>
         </descriptionHyperlinks>
     </GeneDef>
-    <GeneDef ParentName="CorePlus_BloodbeastGeneBase">
-        <defName>CorePlus_StrengthBlood</defName>
+    <GeneDef ParentName="RCP_BloodbeastGeneBase">
+        <defName>RCP_StrengthBlood</defName>
         <label>hemo musculus</label>
         <description>Carries of this gene can turn hemogen into raw physical strength.</description>
-        <iconPath>UI/Icons/Genes/CorePlus_StrengthBlood</iconPath>
+        <iconPath>UI/Icons/Genes/RCP_StrengthBlood</iconPath>
         <abilities>
-            <li>CorePlus_StrengthHemogen</li>
+            <li>RCP_StrengthHemogen</li>
         </abilities>
         <descriptionHyperlinks>
-            <AbilityDef>CorePlus_StrengthHemogen</AbilityDef>
+            <AbilityDef>RCP_StrengthHemogen</AbilityDef>
         </descriptionHyperlinks>
     </GeneDef>
-    <GeneDef ParentName="CorePlus_BloodbeastGeneBase">
-        <defName>CorePlus_MindBlood</defName>
+    <GeneDef ParentName="RCP_BloodbeastGeneBase">
+        <defName>RCP_MindBlood</defName>
         <label>circulate stimulant</label>
         <description>Carries of this gene can convert hemogen into a mental stimulant increasing mental and psychic abilities.</description>
-        <iconPath>UI/Icons/Genes/CorePlus_MindBlood</iconPath>
+        <iconPath>UI/Icons/Genes/RCP_MindBlood</iconPath>
         <abilities>
-            <li>CorePlus_MindHemogen</li>
+            <li>RCP_MindHemogen</li>
         </abilities>
         <descriptionHyperlinks>
-            <AbilityDef>CorePlus_MindHemogen</AbilityDef>
+            <AbilityDef>RCP_MindHemogen</AbilityDef>
         </descriptionHyperlinks>
     </GeneDef>
-    <GeneDef ParentName="CorePlus_BloodbeastGeneBase">
-        <defName>CorePlus_AdrenalineBlood</defName>
+    <GeneDef ParentName="RCP_BloodbeastGeneBase">
+        <defName>RCP_AdrenalineBlood</defName>
         <label>circulate adrenaline</label>
         <description>Carriers of this gene can convert hemogen into powerful adrenaline.</description>
-        <iconPath>UI/Icons/Genes/CorePlus_HemogenAdrenline</iconPath>
+        <iconPath>UI/Icons/Genes/RCP_HemogenAdrenline</iconPath>
         <abilities>
-            <li>CorePlus_HemogenAdrenline</li>
+            <li>RCP_HemogenAdrenline</li>
         </abilities>
         <descriptionHyperlinks>
-            <AbilityDef>CorePlus_HemogenAdrenline</AbilityDef>
+            <AbilityDef>RCP_HemogenAdrenline</AbilityDef>
         </descriptionHyperlinks>
     </GeneDef>
 </Defs>

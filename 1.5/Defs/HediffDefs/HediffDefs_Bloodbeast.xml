@@ -1,5 +1,5 @@
 <Defs>
-    <HediffDef Abstract="True" Name="CorePlus_BloodbeastHediffBase" ParentName="DiseaseBase">
+    <HediffDef Abstract="True" Name="RCP_BloodbeastHediffBase" ParentName="DiseaseBase">
         <comps>
             <li Class="HediffCompProperties_Disappears">
                 <disappearsAfterTicks>7500~7500</disappearsAfterTicks>
@@ -9,8 +9,8 @@
         <isBad>false</isBad>
         <tendable>false</tendable>
     </HediffDef>
-    <HediffDef ParentName="CorePlus_BloodbeastHediffBase">
-        <defName>CorePlus_CirculateAntigen_Core</defName>
+    <HediffDef ParentName="RCP_BloodbeastHediffBase">
+        <defName>RCP_CirculateAntigen_Core</defName>
         <label>hemo antigen</label>
         <description>An antigen created with hemogen is circulating.</description>
         <stages>
@@ -23,8 +23,8 @@
             </li>
         </stages>
     </HediffDef>
-    <HediffDef ParentName="CorePlus_BloodbeastHediffBase">
-        <defName>CorePlus_HemoMusculus_Core</defName>
+    <HediffDef ParentName="RCP_BloodbeastHediffBase">
+        <defName>RCP_HemoMusculus_Core</defName>
         <label>hemo strength</label>
         <description>Hemogen was turned into raw physical strength.</description>
         <stages>
@@ -36,8 +36,8 @@
             </li>
         </stages>
     </HediffDef>
-    <HediffDef ParentName="CorePlus_BloodbeastHediffBase">
-        <defName>CorePlus_CirculateStimulant_Core</defName>
+    <HediffDef ParentName="RCP_BloodbeastHediffBase">
+        <defName>RCP_CirculateStimulant_Core</defName>
         <label>hemo stim</label>
         <description>A mental stimulant is circulating.</description>
         <stages>
@@ -49,8 +49,8 @@
             </li>
         </stages>
     </HediffDef>
-    <HediffDef ParentName="CorePlus_BloodbeastHediffBase">
-        <defName>CorePlus_AdrenalinSurge_Core</defName>
+    <HediffDef ParentName="RCP_BloodbeastHediffBase">
+        <defName>RCP_AdrenalinSurge_Core</defName>
         <label>hemo surge</label>
         <description>Hemogen has been converted into adrenaline.</description>
         <stages>

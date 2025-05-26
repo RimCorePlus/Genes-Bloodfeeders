@@ -1,9 +1,9 @@
 <Defs>
 	<GeneDef>
-		<defName>CorePlus_EnchanterGene</defName>
+		<defName>RCP_EnchanterGene</defName>
 		<label>enchanter</label>
 		<description>Carriers of this gene are strikingly beautiful and highly promiscuous.</description>
-		<iconPath>UI/Icons/Genes/Gene_Enchanter</iconPath>
+		<iconPath>UI/Icons/Genes/RCP_EnchanterGene</iconPath>
 		<displayCategory>Beauty</displayCategory>
 		<exclusionTags>
 			<li>Beauty</li>
@@ -56,7 +56,7 @@
 		</symbolPack>
 	</GeneDef>
 	<GeneDef>
-		<defName>CorePlus_HemoWords</defName>
+		<defName>RCP_HemoWords</defName>
 		<label>hemogenic resonance</label>
 		<description>Carriers of this gene can convert hemogen into pure psychic energy, manipulating those around them.</description>
 		<iconPath>UI/Abilities/HemoWordOfLove</iconPath>
@@ -66,10 +66,10 @@
 		<resourceLossPerDay>0.03</resourceLossPerDay>
 		<abilities>
 			<li>
-				<def>CorePlus_WordOfLove</def>
+				<def>RCP_WordOfLove</def>
 			</li>
 			<li>
-				<def>CorePlus_WordOfJoy</def>
+				<def>RCP_WordOfJoy</def>
 			</li>
 		</abilities>
 		<biostatMet>-1</biostatMet>

@@ -1,7 +1,7 @@
 <Defs>
 	<!--bloodbeast-->
 	<XenotypeDef>
-		<defName>CorePlus_Bloodbeast</defName>
+		<defName>RCP_Bloodbeast</defName>
 		<label>bloodbeast</label>
 		<description>Bloodbeasts are psychotic, bloodfeeding xenohumans who use hemogen to improve their combat abilities.</description>
 		<descriptionShort>Bloodbeasts are psychotic, bloodfeeding xenohumans who use hemogen to improve their combat abilities.</descriptionShort>
@@ -13,11 +13,11 @@
 			<li>Beard_BushyOnly</li>
 			<li>Bloodfeeder</li>
 			<li>Body_Standard</li>
-			<li>CorePlus_AdrenalineBlood</li>
-			<li>CorePlus_BloodMist</li>
-			<li>CorePlus_MindBlood</li>
-			<li>CorePlus_PainBlood</li>
-			<li>CorePlus_StrengthBlood</li>
+			<li>RCP_AdrenalineBlood</li>
+			<li>RCP_BloodMist</li>
+			<li>RCP_MindBlood</li>
+			<li>RCP_PainBlood</li>
+			<li>RCP_StrengthBlood</li>
 			<li>DarkVision</li>
 			<li>Eyes_Red</li>
 			<li>FireTerror</li>
@@ -37,7 +37,7 @@
 	</XenotypeDef>
 	<!--succubus-->
 	<XenotypeDef>
-		<defName>CorePlus_Enchanter</defName>
+		<defName>RCP_Enchanter</defName>
 		<label>enchanter</label>
 		<description>Enchanters are demonic, bloodfeeding xenohumans capable of using hemogen to implant their desires into the minds of others. They are exceptionally beautiful and highly promiscuous. Often found in the company of sanguophages and their thralls, enchanters have a natural urge to manipulate others.</description>
 		<descriptionShort>Bloodfeeding xenohumans capable of implanting their desires into the minds of others.</descriptionShort>
@@ -50,8 +50,8 @@
 			<li MayRequire="oppey.eyegenes2">Eyes_DeepRed</li>
 			<li>Bloodfeeder</li>
 			<li>Body_Standard</li>
-			<li>CorePlus_EnchanterGene</li>
-			<li>CorePlus_HemoWords</li>
+			<li>RCP_EnchanterGene</li>
+			<li>RCP_HemoWords</li>
 			<li>Eyes_Red</li>
 			<li>FireWeakness</li>
 			<li>Hair_Blonde</li>

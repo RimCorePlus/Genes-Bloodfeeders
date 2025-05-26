@@ -1,6 +1,6 @@
 <Defs>
     <AbilityDef>
-        <defName>CorePlus_WordOfLove</defName>
+        <defName>RCP_WordOfLove</defName>
         <label>word of love</label>
         <description>Speak about someone's romantic virtues while using psychic suggestion to implant romantic desire in the listener. For days afterward, the listener will feel psychically-induced romantic attraction towards the other person. This greatly increases opinion and makes them much more likely to attempt romantic advances and marriage proposals if they get the chance. This power can be used to connect two other people, induce love for the caster, or force oneself to love another.</description>
         <iconPath>UI/Abilities/HemoWordOfLove</iconPath>
@@ -38,7 +38,7 @@
         </verbProperties>
     </AbilityDef>
     <AbilityDef>
-        <defName>CorePlus_WordOfJoy</defName>
+        <defName>RCP_WordOfJoy</defName>
         <label>word of joy</label>
         <description>Speak happy, calming words to someone while using psychic suggestion to implant a joyfuzz loop in their mind. The joyfuzz will suppress uncomfortable thoughts and sensations in the target to improve mood. This has the side-effect of dulling sensation and decision-making, which reduces consciousness.</description>
         <iconPath>UI/Abilities/HemoWordOfJoy</iconPath>

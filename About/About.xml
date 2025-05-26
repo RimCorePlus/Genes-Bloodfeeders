@@ -1,5 +1,5 @@
 <ModMetaData>
-	<packageId>coreplus.genes.bloodfeeders</packageId>
+	<packageId>RCP.Genes.Bloodfeeders</packageId>
 	<name>[RCP] Genes - Bloodfeeders</name>
 	<author>boomer</author>
 	<supportedVersions>
@@ -17,7 +17,7 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
-		<li>coreplus.genes</li>
+		<li>RCP.Genes</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
 		<li>vanillaexpanded.vappe</li>
 	</loadAfter>
